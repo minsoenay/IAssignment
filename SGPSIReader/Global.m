@@ -29,6 +29,14 @@ const unsigned char key[] = { 0x4C, 0x2F, 0x52, 0x7E, 0x1B, 0x63, 0x24, 0x61, 0x
     return convertDateStr;
 }
 
++ (NSDate *)convertStringToDate:(NSString *)date want:(NSString *)format {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:format];
+    NSTimeZone *tz = [NSTimeZone localTimeZone];
+    [dateFormatter setTimeZone:tz];
+    return [dateFormatter dateFromString:date];
+}
+
 - (NSString *)encodeToPercentEscapeString:(NSString *)input {
     return (NSString *)
     CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL,
@@ -43,4 +51,42 @@ const unsigned char key[] = { 0x4C, 0x2F, 0x52, 0x7E, 0x1B, 0x63, 0x24, 0x61, 0x
     [alert show];
 }
 
+#pragma mark - last server request time,
++ (NSString *)lastUpdateTimestamp:(NSDate *)lastUpdate {
+    NSDate *currentDate = [NSDate date];
+    NSCalendar *gregorianCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDateComponents *components = [gregorianCalendar components: (NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear )
+                                                        fromDate:lastUpdate
+                                                          toDate:currentDate
+                                                         options:0];
+    if([components day] > 0 ) {
+        if ([components day] > 1) {
+            return [NSString stringWithFormat:@"%dd ago", (int)[components day]];
+        }else {
+            return [NSString stringWithFormat:@"%dd ago", (int)[components day]];
+        }
+    }else if([components hour] > 0 ) {
+        
+        if ([components hour] > 1) {
+            return [NSString stringWithFormat:@"%dh ago",(int) [components hour]];
+        }else {
+            return [NSString stringWithFormat:@"%dh ago",(int) [components hour]];
+        }
+    }else if([components minute] > 0 ) {
+        
+        if ([components minute] > 1) {
+            return [NSString stringWithFormat:@"%dm ago", (int)[components minute]];
+        }else {
+            return [NSString stringWithFormat:@"%dm ago", (int)[components minute]];
+        }
+    }else if ([components second] > 0) {
+        if ([components second] > 1) {
+            return [NSString stringWithFormat:@"%ds ago", (int)[components second]];
+        }else {
+            return [NSString stringWithFormat:@"%ds ago", (int)[components second]];
+        }
+    }else {
+        return [NSString stringWithFormat:@"Just now"];
+    }
+}
 @end

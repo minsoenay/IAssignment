@@ -44,16 +44,24 @@
     return [self.psi.readings.allKeys count] > 0 ? (regions.count+1) : 0;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 50.0f;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if(indexPath.row == 0) {
         static NSString *identifier = @"StaticHeaderCell";
         StaticHeaderCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
         return cell;
     }else {
         
         static NSString *identifier = @"CustomPsiCell";
         CustomPsiCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
         if (cell) {
             
             /* adjust index here */

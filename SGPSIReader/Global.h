@@ -21,7 +21,8 @@ extern const unsigned char key[];
 
 + (Global*)sharedInstance;
 + (NSString *)convertTodayDateToString:(NSDate *)date wantedFormat:(NSString *)format;
++ (NSDate *)convertStringToDate:(NSString *)date want:(NSString *)format;
 - (NSString *)encodeToPercentEscapeString:(NSString *)input;
 + (void)showAlertWith:(NSString *)title with:(NSString *)message;
-
++ (NSString *)lastUpdateTimestamp:(NSDate *)lastUpdate;
 @end

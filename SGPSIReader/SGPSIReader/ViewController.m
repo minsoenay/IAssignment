@@ -103,7 +103,10 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             //update ui
             [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
-            self.lblLatestUpdate.text = [@"Latest Result: " stringByAppendingString: queryDateTime];
+            
+            NSDate *date = [Global convertStringToDate:queryDateTime want:@"dd/MM/yyyy hh:mm:ss a"];
+            self.lblLatestUpdate.text = [@"Last Update: " stringByAppendingString: [Global lastUpdateTimestamp:date]];
+            
             [self.tblViewPsi reloadData];
         });
     });
@@ -113,10 +116,15 @@
     dispatch_queue_t myQueue = dispatch_queue_create("Offline_Queue",NULL);
     dispatch_async(myQueue, ^{
         self.psiData = [CoreDataUtil fetchPSIObject];
+        
+
         dispatch_async(dispatch_get_main_queue(), ^{
-            if (self.psiData.update_timestamp != nil)
-                self.lblLatestUpdate.text = [@"Latest Result: " stringByAppendingString: self.psiData.update_timestamp];
-            [self.tblViewPsi reloadData];
+            if (self.psiData.update_timestamp != nil) {
+            
+                NSDate *date = [Global convertStringToDate:self.psiData.update_timestamp want:@"dd/MM/yyyy hh:mm:ss a"];
+                self.lblLatestUpdate.text = [@"Last Update: " stringByAppendingString: [Global lastUpdateTimestamp:date]];
+                [self.tblViewPsi reloadData];
+            }
         });
     });
 }
@@ -134,16 +142,24 @@
     return self.psiData.readings.count > 0 ? (regions.count+1) : 0;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 50.0f;
+}
+    
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if(indexPath.row == 0) {
         static NSString *identifier = @"StaticHeaderCell";
         StaticHeaderCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
         return cell;
     }else {
     
         static NSString *identifier = @"CustomPsiCell";
         CustomPsiCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
         if (cell) {
             
             /* adjust index here */
