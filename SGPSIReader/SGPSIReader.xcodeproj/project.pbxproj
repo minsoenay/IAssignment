@@ -322,7 +322,7 @@
 					01DB9E701E4CA1B9007CCF7D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = L6MM53R8W3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					01DB9E8C1E4CA1B9007CCF7D = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -621,12 +621,15 @@
 			baseConfigurationReference = 7F242087E71D40C7E5D62C26 /* Pods-SGPSIReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L6MM53R8W3;
 				INFOPLIST_FILE = SGPSIReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nayminsoe.SGPSIReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "218f2d6c-5ca6-49a9-b827-c8dfe684c310";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_SGPSIReader;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -636,12 +639,15 @@
 			baseConfigurationReference = 579C91E9ED0ACA360AF85267 /* Pods-SGPSIReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L6MM53R8W3;
 				INFOPLIST_FILE = SGPSIReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nayminsoe.SGPSIReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "218f2d6c-5ca6-49a9-b827-c8dfe684c310";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_SGPSIReader;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
