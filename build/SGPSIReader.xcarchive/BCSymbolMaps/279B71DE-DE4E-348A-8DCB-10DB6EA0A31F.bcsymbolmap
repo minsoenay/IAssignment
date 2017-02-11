@@ -1,0 +1,2330 @@
+BCSymbolMap Version: 2.0
+-[QueryAlertView viewDidLoad]
+-[QueryAlertView didReceiveMemoryWarning]
+-[QueryAlertView btnCancel_TouchUpInside:]
+-[QueryAlertView btnOk_TouchUpInside:]
+-[QueryAlertView delegate]
+-[QueryAlertView setDelegate:]
+-[QueryAlertView .cxx_destruct]
+_OBJC_CLASS_$_QueryAlertView
+_OBJC_IVAR_$_QueryAlertView._delegate
+_OBJC_METACLASS_$_CustomAlert
+_OBJC_METACLASS_$_QueryAlertView
+_OBJC_CLASS_$_CustomAlert
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/QueryAlertView.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/QueryAlertView.h
++[WebServerHelper sharedHTTPClient]
+___35+[WebServerHelper sharedHTTPClient]_block_invoke
+-[WebServerHelper decodeCKString]
+-[WebServerHelper getPSI:withBlock:]
+___36-[WebServerHelper getPSI:withBlock:]_block_invoke
+___36-[WebServerHelper getPSI:withBlock:]_block_invoke_2
+___36-[WebServerHelper getPSI:withBlock:]_block_invoke_3
+___copy_helper_block_
+___destroy_helper_block_
+-[WebServerHelper cancelOperation]
+-[WebServerHelper dataTask]
+-[WebServerHelper setDataTask:]
+-[WebServerHelper .cxx_destruct]
+_sharedHTTPClient._sharedHTTPClient
+_sharedHTTPClient.onceToken
+_OBJC_CLASS_$_WebServerHelper
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_CLASS_$_Obfuscator
+_OBJC_CLASS_$_AppDelegate
+_key
+_OBJC_CLASS_$_Global
+_OBJC_CLASS_$_AFURLSessionManager
+___block_descriptor_tmp.41
+___block_literal_global.42
+___block_descriptor_tmp.43
+___block_literal_global.44
+_OBJC_CLASS_$_PSIJsonDataModel
+___block_descriptor_tmp.66
+_OBJC_IVAR_$_WebServerHelper._dataTask
+_OBJC_METACLASS_$_AFHTTPSessionManager
+_OBJC_METACLASS_$_WebServerHelper
+_OBJC_CLASS_$_AFHTTPSessionManager
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/WebServerUtil/WebServerHelper.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/WebServerUtil/WebServerHelper.h
+__destroy_helper_block_
+__copy_helper_block_
+__36-[WebServerHelper getPSI:withBlock:]_block_invoke_3
+__36-[WebServerHelper getPSI:withBlock:]_block_invoke_2
+__36-[WebServerHelper getPSI:withBlock:]_block_invoke
+__35+[WebServerHelper sharedHTTPClient]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/dispatch/once.h
+-[CustomPsiCell awakeFromNib]
+-[CustomPsiCell layoutSubviews]
+-[CustomPsiCell setSelected:animated:]
+-[CustomPsiCell bind:twentyFourHourly:psithreeHourly:]
+-[CustomPsiCell lblRegion]
+-[CustomPsiCell setLblRegion:]
+-[CustomPsiCell lblPSI24]
+-[CustomPsiCell setLblPSI24:]
+-[CustomPsiCell lblPSI3]
+-[CustomPsiCell setLblPSI3:]
+-[CustomPsiCell .cxx_destruct]
+-[StaticHeaderCell awakeFromNib]
+_OBJC_CLASS_$_CustomPsiCell
+_OBJC_IVAR_$_CustomPsiCell._lblRegion
+_OBJC_IVAR_$_CustomPsiCell._lblPSI24
+_OBJC_IVAR_$_CustomPsiCell._lblPSI3
+_OBJC_METACLASS_$_CustomPsiCell
+_OBJC_CLASS_$_StaticHeaderCell
+_OBJC_METACLASS_$_StaticHeaderCell
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/CustomPsiCell.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/CustomPsiCell.h
+-[DetailViewController viewDidLoad]
+-[DetailViewController viewWillAppear:]
+-[DetailViewController didReceiveMemoryWarning]
+-[DetailViewController numberOfSectionsInTableView:]
+-[DetailViewController tableView:numberOfRowsInSection:]
+-[DetailViewController tableView:heightForRowAtIndexPath:]
+-[DetailViewController tableView:cellForRowAtIndexPath:]
+-[DetailViewController tableView:didSelectRowAtIndexPath:]
+-[DetailViewController tableView:willDisplayCell:forRowAtIndexPath:]
+___68-[DetailViewController tableView:willDisplayCell:forRowAtIndexPath:]_block_invoke
+-[DetailViewController btnBack_TouchUpInside:]
+-[DetailViewController psi]
+-[DetailViewController setPsi:]
+-[DetailViewController tblActivity]
+-[DetailViewController setTblActivity:]
+-[DetailViewController lblUpdateTime]
+-[DetailViewController setLblUpdateTime:]
+-[DetailViewController .cxx_destruct]
+_OBJC_CLASS_$_DetailViewController
+_OBJC_IVAR_$_DetailViewController._psi
+_OBJC_IVAR_$_DetailViewController._tblActivity
+_OBJC_IVAR_$_DetailViewController._lblUpdateTime
+_OBJC_METACLASS_$_DetailViewController
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/DetailViewController.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/DetailViewController.h
+__68-[DetailViewController tableView:willDisplayCell:forRowAtIndexPath:]_block_invoke
+-[ViewController viewDidLoad]
+-[ViewController pullToRefresh]
+___31-[ViewController pullToRefresh]_block_invoke
+___31-[ViewController pullToRefresh]_block_invoke.47
+___31-[ViewController pullToRefresh]_block_invoke_2
+___copy_helper_block_.48
+___destroy_helper_block_.49
+___copy_helper_block_.53
+___destroy_helper_block_.54
+___31-[ViewController pullToRefresh]_block_invoke.69
+___copy_helper_block_.88
+___destroy_helper_block_.89
+-[ViewController setupDataModel:]
+___33-[ViewController setupDataModel:]_block_invoke
+___33-[ViewController setupDataModel:]_block_invoke_2
+___copy_helper_block_.118
+___destroy_helper_block_.119
+___copy_helper_block_.121
+___destroy_helper_block_.122
+-[ViewController fetchCoreDataForOfflineMoment]
+___47-[ViewController fetchCoreDataForOfflineMoment]_block_invoke
+___47-[ViewController fetchCoreDataForOfflineMoment]_block_invoke_2
+___copy_helper_block_.131
+___destroy_helper_block_.132
+___copy_helper_block_.134
+___destroy_helper_block_.135
+-[ViewController didReceiveMemoryWarning]
+-[ViewController numberOfSectionsInTableView:]
+-[ViewController tableView:numberOfRowsInSection:]
+-[ViewController tableView:heightForRowAtIndexPath:]
+-[ViewController tableView:cellForRowAtIndexPath:]
+-[ViewController tableView:didSelectRowAtIndexPath:]
+-[ViewController tableView:willDisplayCell:forRowAtIndexPath:]
+___62-[ViewController tableView:willDisplayCell:forRowAtIndexPath:]_block_invoke
+___copy_helper_block_.186
+___destroy_helper_block_.187
+-[ViewController btnRefresh_TouchUpInside:]
+-[ViewController setupQuertyAlertView]
+-[ViewController setupProgressAlertView]
+-[ViewController dismissUserPressCancel:]
+-[ViewController dismissUserPressOK:]
+-[ViewController showAlertWith:with:]
+-[ViewController showAlertTimeout]
+___34-[ViewController showAlertTimeout]_block_invoke
+___copy_helper_block_.216
+___destroy_helper_block_.217
+___34-[ViewController showAlertTimeout]_block_invoke.219
+___34-[ViewController showAlertTimeout]_block_invoke_2
+___copy_helper_block_.220
+___destroy_helper_block_.221
+___34-[ViewController showAlertTimeout]_block_invoke.223
+___copy_helper_block_.225
+___destroy_helper_block_.226
+-[ViewController psiData]
+-[ViewController setPsiData:]
+-[ViewController lblLatestUpdate]
+-[ViewController setLblLatestUpdate:]
+-[ViewController tblViewPsi]
+-[ViewController setTblViewPsi:]
+-[ViewController btnRefresh]
+-[ViewController setBtnRefresh:]
+-[ViewController qAlertView]
+-[ViewController setQAlertView:]
+-[ViewController pAlertView]
+-[ViewController setPAlertView:]
+-[ViewController .cxx_destruct]
+_OBJC_CLASS_$_ViewController
+___block_descriptor_tmp.50
+___block_descriptor_tmp.56
+___block_descriptor_tmp.91
+_OBJC_CLASS_$_CoreDataUtil
+___block_descriptor_tmp.120
+___block_descriptor_tmp.123
+___block_descriptor_tmp.133
+___block_descriptor_tmp.136
+___block_descriptor_tmp.188
+_OBJC_CLASS_$_ProgressAlertView
+___block_descriptor_tmp.218
+___block_descriptor_tmp.222
+___block_descriptor_tmp.224
+___block_descriptor_tmp.227
+_OBJC_IVAR_$_ViewController._psiData
+_OBJC_IVAR_$_ViewController._lblLatestUpdate
+_OBJC_IVAR_$_ViewController._tblViewPsi
+_OBJC_IVAR_$_ViewController._btnRefresh
+_OBJC_IVAR_$_ViewController._qAlertView
+_OBJC_IVAR_$_ViewController._pAlertView
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+l_OBJC_PROTOCOL_$_QueryAlertDelegate
+l_OBJC_LABEL_PROTOCOL_$_QueryAlertDelegate
+l_OBJC_PROTOCOL_$_ProgressAlertDelegate
+l_OBJC_LABEL_PROTOCOL_$_ProgressAlertDelegate
+_OBJC_METACLASS_$_ViewController
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/ViewController.m
+__34-[ViewController showAlertTimeout]_block_invoke.223
+__34-[ViewController showAlertTimeout]_block_invoke_2
+__34-[ViewController showAlertTimeout]_block_invoke.219
+__34-[ViewController showAlertTimeout]_block_invoke
+__62-[ViewController tableView:willDisplayCell:forRowAtIndexPath:]_block_invoke
+__47-[ViewController fetchCoreDataForOfflineMoment]_block_invoke_2
+__47-[ViewController fetchCoreDataForOfflineMoment]_block_invoke
+__33-[ViewController setupDataModel:]_block_invoke_2
+__33-[ViewController setupDataModel:]_block_invoke
+__31-[ViewController pullToRefresh]_block_invoke.69
+__31-[ViewController pullToRefresh]_block_invoke_2
+__31-[ViewController pullToRefresh]_block_invoke.47
+__31-[ViewController pullToRefresh]_block_invoke
+-[ActivityViewController viewDidLoad]
+-[ActivityViewController didReceiveMemoryWarning]
+-[ActivityViewController btnBack_TouchUpInside:]
+-[ActivityViewController fetchPastActivity]
+___43-[ActivityViewController fetchPastActivity]_block_invoke
+___43-[ActivityViewController fetchPastActivity]_block_invoke_2
+___copy_helper_block_.26
+___destroy_helper_block_.27
+-[ActivityViewController numberOfSectionsInTableView:]
+-[ActivityViewController tableView:numberOfRowsInSection:]
+-[ActivityViewController tableView:heightForRowAtIndexPath:]
+-[ActivityViewController tableView:cellForRowAtIndexPath:]
+-[ActivityViewController tableView:didSelectRowAtIndexPath:]
+-[ActivityViewController tblActivity]
+-[ActivityViewController setTblActivity:]
+-[ActivityViewController lblStatus]
+-[ActivityViewController setLblStatus:]
+-[ActivityViewController arrActivty]
+-[ActivityViewController setArrActivty:]
+-[ActivityViewController psiData]
+-[ActivityViewController setPsiData:]
+-[ActivityViewController .cxx_destruct]
+_OBJC_CLASS_$_ActivityViewController
+___block_descriptor_tmp.28
+_OBJC_IVAR_$_ActivityViewController._tblActivity
+_OBJC_IVAR_$_ActivityViewController._lblStatus
+_OBJC_IVAR_$_ActivityViewController._arrActivty
+_OBJC_IVAR_$_ActivityViewController._psiData
+_OBJC_METACLASS_$_ActivityViewController
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/ActivityViewController.m
+__43-[ActivityViewController fetchPastActivity]_block_invoke_2
+__43-[ActivityViewController fetchPastActivity]_block_invoke
++[CoreDataUtil insert:psiReadings:]
++[CoreDataUtil fetchPSIObject]
++[CoreDataUtil fetchPastActivity]
+_OBJC_CLASS_$_CoreDataStack
+_OBJC_METACLASS_$_CoreDataUtil
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/CoreDataUtil.m
+_OBJC_METACLASS_$_UpdateTimestampItem
+_OBJC_CLASS_$_UpdateTimestampItem
+/Users/nayminsoe/Library/Developer/Xcode/DerivedData/SGPSIReader-cwjfielxujgpwxcbwsmwoafzjgfc/Build/Intermediates/ArchiveIntermediates/SGPSIReader/IntermediateBuildFilesPath/SGPSIReader.build/Release-iphoneos/SGPSIReader.build/DerivedSources/CoreDataGenerated/SGPSIReader/UpdateTimestampItem+CoreDataClass.m
++[UpdateTimestampItem(CoreDataProperties) fetchRequest]
+/Users/nayminsoe/Library/Developer/Xcode/DerivedData/SGPSIReader-cwjfielxujgpwxcbwsmwoafzjgfc/Build/Intermediates/ArchiveIntermediates/SGPSIReader/IntermediateBuildFilesPath/SGPSIReader.build/Release-iphoneos/SGPSIReader.build/DerivedSources/CoreDataGenerated/SGPSIReader/UpdateTimestampItem+CoreDataProperties.m
+/Users/nayminsoe/Library/Developer/Xcode/DerivedData/SGPSIReader-cwjfielxujgpwxcbwsmwoafzjgfc/Build/Intermediates/ArchiveIntermediates/SGPSIReader/IntermediateBuildFilesPath/SGPSIReader.build/Release-iphoneos/SGPSIReader.build/DerivedSources/CoreDataGenerated/SGPSIReader/SGPSIReader+CoreDataModel.m
+-[ProgressAlertView viewDidLoad]
+-[ProgressAlertView didReceiveMemoryWarning]
+-[ProgressAlertView btnCancel_TouchUpInside:]
+-[ProgressAlertView delegate]
+-[ProgressAlertView setDelegate:]
+-[ProgressAlertView .cxx_destruct]
+_OBJC_IVAR_$_ProgressAlertView._delegate
+_OBJC_METACLASS_$_ProgressAlertView
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/ProgressAlertView.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/ProgressAlertView.h
++[Global sharedInstance]
+___24+[Global sharedInstance]_block_invoke
++[Global convertTodayDateToString:wantedFormat:]
++[Global convertStringToDate:want:]
+-[Global encodeToPercentEscapeString:]
++[Global showAlertWith:with:]
++[Global lastUpdateTimestamp:]
+_sharedInstance.sharedInstance
+_sharedInstance.done
+_OBJC_METACLASS_$_Global
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Global.m
+__24+[Global sharedInstance]_block_invoke
++[CoreDataStack sharedInstance]
+___31+[CoreDataStack sharedInstance]_block_invoke
+-[CoreDataStack persistentContainer]
+___36-[CoreDataStack persistentContainer]_block_invoke
+-[CoreDataStack saveContext]
+-[CoreDataStack .cxx_destruct]
+_OBJC_IVAR_$_CoreDataStack._persistentContainer
+___block_descriptor_tmp.15
+___block_literal_global.16
+_OBJC_METACLASS_$_CoreDataStack
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/CoreDataStack.m
+__36-[CoreDataStack persistentContainer]_block_invoke
+__31+[CoreDataStack sharedInstance]_block_invoke
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_CLASS_$_AFNetworkReachabilityManager
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/AppDelegate.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/AppDelegate.h
+-[PSIJsonDataModel timestamp]
+-[PSIJsonDataModel setTimestamp:]
+-[PSIJsonDataModel update_timestamp]
+-[PSIJsonDataModel setUpdate_timestamp:]
+-[PSIJsonDataModel readings]
+-[PSIJsonDataModel setReadings:]
+-[PSIJsonDataModel .cxx_destruct]
+_OBJC_IVAR_$_PSIJsonDataModel._timestamp
+_OBJC_IVAR_$_PSIJsonDataModel._update_timestamp
+_OBJC_IVAR_$_PSIJsonDataModel._readings
+_OBJC_METACLASS_$_JSONModel
+_OBJC_METACLASS_$_PSIJsonDataModel
+_OBJC_CLASS_$_JSONModel
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/JSONModel/PSIJsonDataModel.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/JSONModel/PSIJsonDataModel.h
++[Obfuscator storeKey:forSalt:]
++[Obfuscator newWithSalt:]
++[Obfuscator newUsingStoredSalt:]
++[Obfuscator newWithSaltUnsafe:]
+-[Obfuscator hexByObfuscatingString:]
+-[Obfuscator hexByObfuscatingString:silence:]
++[Obfuscator reveal:UsingStoredSalt:]
+-[Obfuscator reveal:]
++[Obfuscator generateCodeWithSaltUnsafe:WithStrings:]
++[Obfuscator generateCodeWithSalt:WithStrings:]
++[Obfuscator generateCodeWithSaltUnsafe:WithStrings:silence:successfulP:unsuccessfulP:]
++[Obfuscator hashSaltUsingSHA1:]
+-[Obfuscator CStringToNSString:]
+-[Obfuscator convertNSStringtoCString:]
++[Obfuscator printHex:]
++[Obfuscator printHex:WithKey:]
++[Obfuscator logCodeWithSuccessful:unsuccessful:]
++[Obfuscator stringFromClasses:]
++[Obfuscator allPermutationsOfArray:]
+-[Obfuscator salt]
+-[Obfuscator setSalt:]
+-[Obfuscator .cxx_destruct]
+_saltDatabase
+_OBJC_IVAR_$_Obfuscator._salt
+_OBJC_METACLASS_$_Obfuscator
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Obfuscator/Obfuscator.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/SGPSIReader/main.m
+main
+-[CustomAlert viewDidLoad]
+-[CustomAlert viewDidAppear:]
+-[CustomAlert didReceiveMemoryWarning]
+-[CustomAlert lblTitle]
+-[CustomAlert setLblTitle:]
+-[CustomAlert lblDesc]
+-[CustomAlert setLblDesc:]
+-[CustomAlert btnCancel]
+-[CustomAlert setBtnCancel:]
+-[CustomAlert btnOk]
+-[CustomAlert setBtnOk:]
+-[CustomAlert activityView]
+-[CustomAlert setActivityView:]
+-[CustomAlert .cxx_destruct]
+_OBJC_IVAR_$_CustomAlert._lblTitle
+_OBJC_IVAR_$_CustomAlert._lblDesc
+_OBJC_IVAR_$_CustomAlert._btnCancel
+_OBJC_IVAR_$_CustomAlert._btnOk
+_OBJC_IVAR_$_CustomAlert._activityView
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/CustomAlert.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/CustomAlert.h
+-[AFCachedImage initWithImage:identifier:]
+-[AFCachedImage accessImage]
+-[AFCachedImage description]
+-[AFCachedImage image]
+-[AFCachedImage setImage:]
+-[AFCachedImage identifier]
+-[AFCachedImage setIdentifier:]
+-[AFCachedImage totalBytes]
+-[AFCachedImage setTotalBytes:]
+-[AFCachedImage lastAccessDate]
+-[AFCachedImage setLastAccessDate:]
+-[AFCachedImage currentMemoryUsage]
+-[AFCachedImage setCurrentMemoryUsage:]
+-[AFCachedImage .cxx_destruct]
+-[AFAutoPurgingImageCache init]
+-[AFAutoPurgingImageCache initWithMemoryCapacity:preferredMemoryCapacity:]
+-[AFAutoPurgingImageCache dealloc]
+-[AFAutoPurgingImageCache memoryUsage]
+___38-[AFAutoPurgingImageCache memoryUsage]_block_invoke
+-[AFAutoPurgingImageCache addImage:withIdentifier:]
+___51-[AFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke
+___copy_helper_block_.102
+___destroy_helper_block_.103
+___51-[AFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke.105
+___copy_helper_block_.129
+___destroy_helper_block_.130
+-[AFAutoPurgingImageCache removeImageWithIdentifier:]
+___53-[AFAutoPurgingImageCache removeImageWithIdentifier:]_block_invoke
+___copy_helper_block_.132
+___destroy_helper_block_.133
+-[AFAutoPurgingImageCache removeAllImages]
+___42-[AFAutoPurgingImageCache removeAllImages]_block_invoke
+___copy_helper_block_.139
+___destroy_helper_block_.140
+-[AFAutoPurgingImageCache imageWithIdentifier:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___47-[AFAutoPurgingImageCache imageWithIdentifier:]_block_invoke
+___copy_helper_block_.143
+___destroy_helper_block_.144
+-[AFAutoPurgingImageCache addImage:forRequest:withAdditionalIdentifier:]
+-[AFAutoPurgingImageCache removeImageforRequest:withAdditionalIdentifier:]
+-[AFAutoPurgingImageCache imageforRequest:withAdditionalIdentifier:]
+-[AFAutoPurgingImageCache imageCacheKeyFromURLRequest:withAdditionalIdentifier:]
+-[AFAutoPurgingImageCache memoryCapacity]
+-[AFAutoPurgingImageCache setMemoryCapacity:]
+-[AFAutoPurgingImageCache preferredMemoryUsageAfterPurge]
+-[AFAutoPurgingImageCache setPreferredMemoryUsageAfterPurge:]
+-[AFAutoPurgingImageCache cachedImages]
+-[AFAutoPurgingImageCache setCachedImages:]
+-[AFAutoPurgingImageCache currentMemoryUsage]
+-[AFAutoPurgingImageCache setCurrentMemoryUsage:]
+-[AFAutoPurgingImageCache synchronizationQueue]
+-[AFAutoPurgingImageCache setSynchronizationQueue:]
+-[AFAutoPurgingImageCache .cxx_destruct]
+_OBJC_IVAR_$_AFCachedImage._image
+_OBJC_IVAR_$_AFCachedImage._identifier
+_OBJC_IVAR_$_AFCachedImage._totalBytes
+_OBJC_IVAR_$_AFCachedImage._lastAccessDate
+_OBJC_IVAR_$_AFCachedImage._currentMemoryUsage
+_OBJC_METACLASS_$_AFCachedImage
+_OBJC_CLASS_$_AFCachedImage
+_OBJC_CLASS_$_AFAutoPurgingImageCache
+___block_descriptor_tmp.104
+___block_descriptor_tmp.131
+___block_descriptor_tmp.134
+___block_descriptor_tmp.141
+___block_descriptor_tmp.145
+_OBJC_IVAR_$_AFAutoPurgingImageCache._memoryCapacity
+_OBJC_IVAR_$_AFAutoPurgingImageCache._preferredMemoryUsageAfterPurge
+_OBJC_IVAR_$_AFAutoPurgingImageCache._cachedImages
+_OBJC_IVAR_$_AFAutoPurgingImageCache._currentMemoryUsage
+_OBJC_IVAR_$_AFAutoPurgingImageCache._synchronizationQueue
+l_OBJC_PROTOCOL_$_AFImageCache
+l_OBJC_LABEL_PROTOCOL_$_AFImageCache
+l_OBJC_PROTOCOL_$_AFImageRequestCache
+l_OBJC_LABEL_PROTOCOL_$_AFImageRequestCache
+_OBJC_METACLASS_$_AFAutoPurgingImageCache
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h
+__47-[AFAutoPurgingImageCache imageWithIdentifier:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__42-[AFAutoPurgingImageCache removeAllImages]_block_invoke
+__53-[AFAutoPurgingImageCache removeImageWithIdentifier:]_block_invoke
+__51-[AFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke.105
+__51-[AFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke
+__38-[AFAutoPurgingImageCache memoryUsage]_block_invoke
++[AFHTTPSessionManager manager]
+-[AFHTTPSessionManager init]
+-[AFHTTPSessionManager initWithBaseURL:]
+-[AFHTTPSessionManager initWithSessionConfiguration:]
+-[AFHTTPSessionManager initWithBaseURL:sessionConfiguration:]
+-[AFHTTPSessionManager setRequestSerializer:]
+-[AFHTTPSessionManager setResponseSerializer:]
+-[AFHTTPSessionManager GET:parameters:success:failure:]
+-[AFHTTPSessionManager GET:parameters:progress:success:failure:]
+-[AFHTTPSessionManager HEAD:parameters:success:failure:]
+___56-[AFHTTPSessionManager HEAD:parameters:success:failure:]_block_invoke
+-[AFHTTPSessionManager POST:parameters:success:failure:]
+-[AFHTTPSessionManager POST:parameters:progress:success:failure:]
+-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:success:failure:]
+-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]
+___91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke
+___copy_helper_block_.58
+___destroy_helper_block_.59
+___91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke.62
+___copy_helper_block_.63
+___destroy_helper_block_.64
+-[AFHTTPSessionManager PUT:parameters:success:failure:]
+-[AFHTTPSessionManager PATCH:parameters:success:failure:]
+-[AFHTTPSessionManager DELETE:parameters:success:failure:]
+-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]
+___116-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke
+___copy_helper_block_.77
+___destroy_helper_block_.78
+___116-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke.80
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[AFHTTPSessionManager description]
++[AFHTTPSessionManager supportsSecureCoding]
+-[AFHTTPSessionManager initWithCoder:]
+-[AFHTTPSessionManager encodeWithCoder:]
+-[AFHTTPSessionManager copyWithZone:]
+-[AFHTTPSessionManager baseURL]
+-[AFHTTPSessionManager setBaseURL:]
+-[AFHTTPSessionManager requestSerializer]
+-[AFHTTPSessionManager .cxx_destruct]
+_OBJC_CLASS_$_AFHTTPRequestSerializer
+_OBJC_CLASS_$_AFJSONResponseSerializer
+_OBJC_IVAR_$_AFHTTPSessionManager._requestSerializer
+___block_descriptor_tmp.61
+___block_descriptor_tmp.79
+___block_descriptor_tmp.83
+_OBJC_CLASS_$_AFHTTPResponseSerializer
+_OBJC_CLASS_$_AFSecurityPolicy
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_REFERENCE_$_NSCoding
+_OBJC_IVAR_$_AFHTTPSessionManager._baseURL
+_OBJC_METACLASS_$_AFURLSessionManager
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h
+__116-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke.80
+__116-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke
+__91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke.62
+__91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke
+__56-[AFHTTPSessionManager HEAD:parameters:success:failure:]_block_invoke
+-[AFImageDownloaderResponseHandler initWithUUID:success:failure:]
+-[AFImageDownloaderResponseHandler description]
+-[AFImageDownloaderResponseHandler uuid]
+-[AFImageDownloaderResponseHandler setUuid:]
+-[AFImageDownloaderResponseHandler successBlock]
+-[AFImageDownloaderResponseHandler setSuccessBlock:]
+-[AFImageDownloaderResponseHandler failureBlock]
+-[AFImageDownloaderResponseHandler setFailureBlock:]
+-[AFImageDownloaderResponseHandler .cxx_destruct]
+-[AFImageDownloaderMergedTask initWithURLIdentifier:identifier:task:]
+-[AFImageDownloaderMergedTask addResponseHandler:]
+-[AFImageDownloaderMergedTask removeResponseHandler:]
+-[AFImageDownloaderMergedTask URLIdentifier]
+-[AFImageDownloaderMergedTask setURLIdentifier:]
+-[AFImageDownloaderMergedTask identifier]
+-[AFImageDownloaderMergedTask setIdentifier:]
+-[AFImageDownloaderMergedTask task]
+-[AFImageDownloaderMergedTask setTask:]
+-[AFImageDownloaderMergedTask responseHandlers]
+-[AFImageDownloaderMergedTask setResponseHandlers:]
+-[AFImageDownloaderMergedTask .cxx_destruct]
+-[AFImageDownloadReceipt initWithReceiptID:task:]
+-[AFImageDownloadReceipt task]
+-[AFImageDownloadReceipt setTask:]
+-[AFImageDownloadReceipt receiptID]
+-[AFImageDownloadReceipt setReceiptID:]
+-[AFImageDownloadReceipt .cxx_destruct]
++[AFImageDownloader defaultURLCache]
++[AFImageDownloader defaultURLSessionConfiguration]
+-[AFImageDownloader init]
+-[AFImageDownloader initWithSessionManager:downloadPrioritization:maximumActiveDownloads:imageCache:]
++[AFImageDownloader defaultInstance]
+___36+[AFImageDownloader defaultInstance]_block_invoke
+-[AFImageDownloader downloadImageForURLRequest:success:failure:]
+-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2
+___copy_helper_block_.164
+___destroy_helper_block_.165
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.181
+___copy_helper_block_.182
+___destroy_helper_block_.183
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.187
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2.190
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_3
+___copy_helper_block_.199
+___destroy_helper_block_.200
+___78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.205
+___copy_helper_block_.206
+___destroy_helper_block_.207
+___copy_helper_block_.213
+___destroy_helper_block_.214
+___copy_helper_block_.232
+___destroy_helper_block_.233
+-[AFImageDownloader cancelTaskForImageDownloadReceipt:]
+___55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke
+___55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke_2
+___copy_helper_block_.240
+___destroy_helper_block_.241
+___55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke.254
+___copy_helper_block_.255
+___destroy_helper_block_.256
+___copy_helper_block_.266
+___destroy_helper_block_.267
+-[AFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]
+___61-[AFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]_block_invoke
+___copy_helper_block_.269
+___destroy_helper_block_.270
+-[AFImageDownloader removeMergedTaskWithURLIdentifier:]
+-[AFImageDownloader safelyDecrementActiveTaskCount]
+___51-[AFImageDownloader safelyDecrementActiveTaskCount]_block_invoke
+___copy_helper_block_.276
+___destroy_helper_block_.277
+-[AFImageDownloader safelyStartNextTaskIfNecessary]
+___51-[AFImageDownloader safelyStartNextTaskIfNecessary]_block_invoke
+___copy_helper_block_.283
+___destroy_helper_block_.284
+-[AFImageDownloader startMergedTask:]
+-[AFImageDownloader enqueueMergedTask:]
+-[AFImageDownloader dequeueMergedTask]
+-[AFImageDownloader isActiveRequestCountBelowMaximumLimit]
+-[AFImageDownloader imageCache]
+-[AFImageDownloader setImageCache:]
+-[AFImageDownloader sessionManager]
+-[AFImageDownloader setSessionManager:]
+-[AFImageDownloader downloadPrioritizaton]
+-[AFImageDownloader setDownloadPrioritizaton:]
+-[AFImageDownloader synchronizationQueue]
+-[AFImageDownloader setSynchronizationQueue:]
+-[AFImageDownloader responseQueue]
+-[AFImageDownloader setResponseQueue:]
+-[AFImageDownloader maximumActiveDownloads]
+-[AFImageDownloader setMaximumActiveDownloads:]
+-[AFImageDownloader activeRequestCount]
+-[AFImageDownloader setActiveRequestCount:]
+-[AFImageDownloader queuedMergedTasks]
+-[AFImageDownloader setQueuedMergedTasks:]
+-[AFImageDownloader mergedTasks]
+-[AFImageDownloader setMergedTasks:]
+-[AFImageDownloader .cxx_destruct]
+_OBJC_IVAR_$_AFImageDownloaderResponseHandler._uuid
+_OBJC_IVAR_$_AFImageDownloaderResponseHandler._successBlock
+_OBJC_IVAR_$_AFImageDownloaderResponseHandler._failureBlock
+_OBJC_METACLASS_$_AFImageDownloaderResponseHandler
+_OBJC_CLASS_$_AFImageDownloaderResponseHandler
+_OBJC_IVAR_$_AFImageDownloaderMergedTask._URLIdentifier
+_OBJC_IVAR_$_AFImageDownloaderMergedTask._identifier
+_OBJC_IVAR_$_AFImageDownloaderMergedTask._task
+_OBJC_IVAR_$_AFImageDownloaderMergedTask._responseHandlers
+_OBJC_METACLASS_$_AFImageDownloaderMergedTask
+_OBJC_CLASS_$_AFImageDownloaderMergedTask
+_OBJC_IVAR_$_AFImageDownloadReceipt._task
+_OBJC_IVAR_$_AFImageDownloadReceipt._receiptID
+_OBJC_METACLASS_$_AFImageDownloadReceipt
+_OBJC_CLASS_$_AFImageDownloadReceipt
+_OBJC_CLASS_$_AFImageDownloader
+_OBJC_CLASS_$_AFImageResponseSerializer
+_defaultInstance.sharedInstance
+_defaultInstance.onceToken
+___block_descriptor_tmp.166
+___block_descriptor_tmp.184
+___block_descriptor_tmp.201
+___block_descriptor_tmp.208
+___block_descriptor_tmp.215
+___block_descriptor_tmp.219
+___block_descriptor_tmp.234
+___block_descriptor_tmp.243
+___block_descriptor_tmp.257
+___block_descriptor_tmp.268
+___block_descriptor_tmp.271
+___block_descriptor_tmp.278
+___block_descriptor_tmp.285
+_OBJC_IVAR_$_AFImageDownloader._imageCache
+_OBJC_IVAR_$_AFImageDownloader._sessionManager
+_OBJC_IVAR_$_AFImageDownloader._downloadPrioritizaton
+_OBJC_IVAR_$_AFImageDownloader._synchronizationQueue
+_OBJC_IVAR_$_AFImageDownloader._responseQueue
+_OBJC_IVAR_$_AFImageDownloader._maximumActiveDownloads
+_OBJC_IVAR_$_AFImageDownloader._activeRequestCount
+_OBJC_IVAR_$_AFImageDownloader._queuedMergedTasks
+_OBJC_IVAR_$_AFImageDownloader._mergedTasks
+_OBJC_METACLASS_$_AFImageDownloader
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h
+__51-[AFImageDownloader safelyStartNextTaskIfNecessary]_block_invoke
+__51-[AFImageDownloader safelyDecrementActiveTaskCount]_block_invoke
+__61-[AFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]_block_invoke
+__55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke.254
+__55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke_2
+__55-[AFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.205
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_3
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2.190
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.187
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.181
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2
+__78-[AFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke
+__36+[AFImageDownloader defaultInstance]_block_invoke
++[AFNetworkActivityIndicatorManager sharedManager]
+___50+[AFNetworkActivityIndicatorManager sharedManager]_block_invoke
+-[AFNetworkActivityIndicatorManager init]
+-[AFNetworkActivityIndicatorManager dealloc]
+-[AFNetworkActivityIndicatorManager setEnabled:]
+-[AFNetworkActivityIndicatorManager setNetworkingActivityActionWithBlock:]
+-[AFNetworkActivityIndicatorManager isNetworkActivityOccurring]
+-[AFNetworkActivityIndicatorManager setNetworkActivityIndicatorVisible:]
+-[AFNetworkActivityIndicatorManager setActivityCount:]
+___54-[AFNetworkActivityIndicatorManager setActivityCount:]_block_invoke
+___copy_helper_block_.41
+___destroy_helper_block_.42
+-[AFNetworkActivityIndicatorManager incrementActivityCount]
+___59-[AFNetworkActivityIndicatorManager incrementActivityCount]_block_invoke
+___copy_helper_block_.46
+___destroy_helper_block_.47
+-[AFNetworkActivityIndicatorManager decrementActivityCount]
+___59-[AFNetworkActivityIndicatorManager decrementActivityCount]_block_invoke
+___copy_helper_block_.49
+___destroy_helper_block_.50
+-[AFNetworkActivityIndicatorManager networkRequestDidStart:]
+_AFNetworkRequestFromNotification
+-[AFNetworkActivityIndicatorManager networkRequestDidFinish:]
+-[AFNetworkActivityIndicatorManager setCurrentState:]
+-[AFNetworkActivityIndicatorManager updateCurrentStateForNetworkActivityChange]
+-[AFNetworkActivityIndicatorManager startActivationDelayTimer]
+-[AFNetworkActivityIndicatorManager activationDelayTimerFired]
+-[AFNetworkActivityIndicatorManager startCompletionDelayTimer]
+-[AFNetworkActivityIndicatorManager completionDelayTimerFired]
+-[AFNetworkActivityIndicatorManager cancelActivationDelayTimer]
+-[AFNetworkActivityIndicatorManager cancelCompletionDelayTimer]
+-[AFNetworkActivityIndicatorManager isEnabled]
+-[AFNetworkActivityIndicatorManager isNetworkActivityIndicatorVisible]
+-[AFNetworkActivityIndicatorManager activationDelay]
+-[AFNetworkActivityIndicatorManager setActivationDelay:]
+-[AFNetworkActivityIndicatorManager completionDelay]
+-[AFNetworkActivityIndicatorManager setCompletionDelay:]
+-[AFNetworkActivityIndicatorManager activityCount]
+-[AFNetworkActivityIndicatorManager activationDelayTimer]
+-[AFNetworkActivityIndicatorManager setActivationDelayTimer:]
+-[AFNetworkActivityIndicatorManager completionDelayTimer]
+-[AFNetworkActivityIndicatorManager setCompletionDelayTimer:]
+-[AFNetworkActivityIndicatorManager networkActivityActionBlock]
+-[AFNetworkActivityIndicatorManager setNetworkActivityActionBlock:]
+-[AFNetworkActivityIndicatorManager currentState]
+-[AFNetworkActivityIndicatorManager .cxx_destruct]
+_sharedManager._sharedManager
+_sharedManager.oncePredicate
+_OBJC_CLASS_$_AFNetworkActivityIndicatorManager
+_AFNetworkingTaskDidResumeNotification
+_AFNetworkingTaskDidSuspendNotification
+_AFNetworkingTaskDidCompleteNotification
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._activationDelayTimer
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._completionDelayTimer
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._enabled
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._networkActivityIndicatorVisible
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._activityCount
+___block_descriptor_tmp.48
+___block_descriptor_tmp.51
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._currentState
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._activationDelay
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._completionDelay
+_OBJC_IVAR_$_AFNetworkActivityIndicatorManager._networkActivityActionBlock
+_OBJC_METACLASS_$_AFNetworkActivityIndicatorManager
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h
+AFNetworkRequestFromNotification
+__59-[AFNetworkActivityIndicatorManager decrementActivityCount]_block_invoke
+__59-[AFNetworkActivityIndicatorManager incrementActivityCount]_block_invoke
+__54-[AFNetworkActivityIndicatorManager setActivityCount:]_block_invoke
+__50+[AFNetworkActivityIndicatorManager sharedManager]_block_invoke
+_OBJC_METACLASS_$_PodsDummy_AFNetworking
+_OBJC_CLASS_$_PodsDummy_AFNetworking
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m
+_AFStringFromNetworkReachabilityStatus
++[AFNetworkReachabilityManager sharedManager]
+___45+[AFNetworkReachabilityManager sharedManager]_block_invoke
++[AFNetworkReachabilityManager managerForDomain:]
++[AFNetworkReachabilityManager managerForAddress:]
++[AFNetworkReachabilityManager manager]
+-[AFNetworkReachabilityManager initWithReachability:]
+-[AFNetworkReachabilityManager init]
+-[AFNetworkReachabilityManager dealloc]
+-[AFNetworkReachabilityManager isReachable]
+-[AFNetworkReachabilityManager isReachableViaWWAN]
+-[AFNetworkReachabilityManager isReachableViaWiFi]
+-[AFNetworkReachabilityManager startMonitoring]
+___47-[AFNetworkReachabilityManager startMonitoring]_block_invoke
+_AFNetworkReachabilityRetainCallback
+_AFNetworkReachabilityReleaseCallback
+_AFNetworkReachabilityCallback
+___47-[AFNetworkReachabilityManager startMonitoring]_block_invoke.50
+_AFPostReachabilityStatusChange
+___copy_helper_block_.51
+___destroy_helper_block_.52
+-[AFNetworkReachabilityManager stopMonitoring]
+-[AFNetworkReachabilityManager localizedNetworkReachabilityStatusString]
+-[AFNetworkReachabilityManager setReachabilityStatusChangeBlock:]
++[AFNetworkReachabilityManager keyPathsForValuesAffectingValueForKey:]
+-[AFNetworkReachabilityManager networkReachabilityStatus]
+-[AFNetworkReachabilityManager setNetworkReachabilityStatus:]
+-[AFNetworkReachabilityManager networkReachability]
+-[AFNetworkReachabilityManager networkReachabilityStatusBlock]
+-[AFNetworkReachabilityManager setNetworkReachabilityStatusBlock:]
+-[AFNetworkReachabilityManager .cxx_destruct]
+___AFPostReachabilityStatusChange_block_invoke
+___copy_helper_block_.119
+___destroy_helper_block_.120
+_AFNetworkingReachabilityDidChangeNotification
+_AFNetworkingReachabilityNotificationStatusItem
+_sharedManager.onceToken
+_OBJC_IVAR_$_AFNetworkReachabilityManager._networkReachability
+___block_descriptor_tmp.49
+___block_descriptor_tmp.53
+_OBJC_METACLASS_$_AFNetworkReachabilityManager
+_OBJC_IVAR_$_AFNetworkReachabilityManager._networkReachabilityStatus
+_OBJC_IVAR_$_AFNetworkReachabilityManager._networkReachabilityStatusBlock
+___block_descriptor_tmp.121
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+__AFPostReachabilityStatusChange_block_invoke
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+AFPostReachabilityStatusChange
+AFNetworkReachabilityStatusForFlags
+__47-[AFNetworkReachabilityManager startMonitoring]_block_invoke.50
+AFNetworkReachabilityCallback
+AFNetworkReachabilityReleaseCallback
+AFNetworkReachabilityRetainCallback
+__47-[AFNetworkReachabilityManager startMonitoring]_block_invoke
+__45+[AFNetworkReachabilityManager sharedManager]_block_invoke
+AFStringFromNetworkReachabilityStatus
++[AFSecurityPolicy certificatesInBundle:]
++[AFSecurityPolicy defaultPinnedCertificates]
+___45+[AFSecurityPolicy defaultPinnedCertificates]_block_invoke
++[AFSecurityPolicy defaultPolicy]
++[AFSecurityPolicy policyWithPinningMode:]
++[AFSecurityPolicy policyWithPinningMode:withPinnedCertificates:]
+-[AFSecurityPolicy init]
+-[AFSecurityPolicy setPinnedCertificates:]
+-[AFSecurityPolicy evaluateServerTrust:forDomain:]
+_AFServerTrustIsValid
++[AFSecurityPolicy keyPathsForValuesAffectingPinnedPublicKeys]
++[AFSecurityPolicy supportsSecureCoding]
+-[AFSecurityPolicy initWithCoder:]
+-[AFSecurityPolicy encodeWithCoder:]
+-[AFSecurityPolicy copyWithZone:]
+-[AFSecurityPolicy SSLPinningMode]
+-[AFSecurityPolicy setSSLPinningMode:]
+-[AFSecurityPolicy pinnedCertificates]
+-[AFSecurityPolicy allowInvalidCertificates]
+-[AFSecurityPolicy setAllowInvalidCertificates:]
+-[AFSecurityPolicy validatesDomainName]
+-[AFSecurityPolicy setValidatesDomainName:]
+-[AFSecurityPolicy pinnedPublicKeys]
+-[AFSecurityPolicy setPinnedPublicKeys:]
+-[AFSecurityPolicy .cxx_destruct]
+_defaultPinnedCertificates._defaultPinnedCertificates
+_defaultPinnedCertificates.onceToken
+_OBJC_IVAR_$_AFSecurityPolicy._pinnedCertificates
+_OBJC_IVAR_$_AFSecurityPolicy._SSLPinningMode
+_OBJC_IVAR_$_AFSecurityPolicy._allowInvalidCertificates
+_OBJC_IVAR_$_AFSecurityPolicy._validatesDomainName
+_OBJC_IVAR_$_AFSecurityPolicy._pinnedPublicKeys
+_OBJC_METACLASS_$_AFSecurityPolicy
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+AFServerTrustIsValid
+AFSecKeyIsEqualToKey
+AFPublicKeyTrustChainForServerTrust
+AFCertificateTrustChainForServerTrust
+AFPublicKeyForCertificate
+__45+[AFSecurityPolicy defaultPinnedCertificates]_block_invoke
+_AFPercentEscapedStringFromString
+-[AFQueryStringPair initWithField:value:]
+-[AFQueryStringPair URLEncodedStringValue]
+-[AFQueryStringPair field]
+-[AFQueryStringPair setField:]
+-[AFQueryStringPair value]
+-[AFQueryStringPair setValue:]
+-[AFQueryStringPair .cxx_destruct]
+_AFQueryStringFromParameters
+_AFQueryStringPairsFromDictionary
+_AFQueryStringPairsFromKeyAndValue
++[AFHTTPRequestSerializer serializer]
+-[AFHTTPRequestSerializer init]
+___31-[AFHTTPRequestSerializer init]_block_invoke
+-[AFHTTPRequestSerializer dealloc]
+-[AFHTTPRequestSerializer setAllowsCellularAccess:]
+-[AFHTTPRequestSerializer setCachePolicy:]
+-[AFHTTPRequestSerializer setHTTPShouldHandleCookies:]
+-[AFHTTPRequestSerializer setHTTPShouldUsePipelining:]
+-[AFHTTPRequestSerializer setNetworkServiceType:]
+-[AFHTTPRequestSerializer setTimeoutInterval:]
+-[AFHTTPRequestSerializer HTTPRequestHeaders]
+-[AFHTTPRequestSerializer setValue:forHTTPHeaderField:]
+-[AFHTTPRequestSerializer valueForHTTPHeaderField:]
+-[AFHTTPRequestSerializer setAuthorizationHeaderFieldWithUsername:password:]
+-[AFHTTPRequestSerializer clearAuthorizationHeader]
+-[AFHTTPRequestSerializer setQueryStringSerializationWithStyle:]
+-[AFHTTPRequestSerializer setQueryStringSerializationWithBlock:]
+-[AFHTTPRequestSerializer requestWithMethod:URLString:parameters:error:]
+-[AFHTTPRequestSerializer multipartFormRequestWithMethod:URLString:parameters:constructingBodyWithBlock:error:]
+-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]
+___105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke
+___105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke_2
+___copy_helper_block_.270
+___destroy_helper_block_.271
+___copy_helper_block_.274
+___destroy_helper_block_.275
+-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]
+___76-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
++[AFHTTPRequestSerializer automaticallyNotifiesObserversForKey:]
+-[AFHTTPRequestSerializer observeValueForKeyPath:ofObject:change:context:]
++[AFHTTPRequestSerializer supportsSecureCoding]
+-[AFHTTPRequestSerializer initWithCoder:]
+-[AFHTTPRequestSerializer encodeWithCoder:]
+-[AFHTTPRequestSerializer copyWithZone:]
+-[AFHTTPRequestSerializer stringEncoding]
+-[AFHTTPRequestSerializer setStringEncoding:]
+-[AFHTTPRequestSerializer allowsCellularAccess]
+-[AFHTTPRequestSerializer cachePolicy]
+-[AFHTTPRequestSerializer HTTPShouldHandleCookies]
+-[AFHTTPRequestSerializer HTTPShouldUsePipelining]
+-[AFHTTPRequestSerializer networkServiceType]
+-[AFHTTPRequestSerializer timeoutInterval]
+-[AFHTTPRequestSerializer HTTPMethodsEncodingParametersInURI]
+-[AFHTTPRequestSerializer setHTTPMethodsEncodingParametersInURI:]
+-[AFHTTPRequestSerializer mutableObservedChangedKeyPaths]
+-[AFHTTPRequestSerializer setMutableObservedChangedKeyPaths:]
+-[AFHTTPRequestSerializer mutableHTTPRequestHeaders]
+-[AFHTTPRequestSerializer setMutableHTTPRequestHeaders:]
+-[AFHTTPRequestSerializer queryStringSerializationStyle]
+-[AFHTTPRequestSerializer setQueryStringSerializationStyle:]
+-[AFHTTPRequestSerializer queryStringSerialization]
+-[AFHTTPRequestSerializer setQueryStringSerialization:]
+-[AFHTTPRequestSerializer .cxx_destruct]
+-[AFStreamingMultipartFormData initWithURLRequest:stringEncoding:]
+-[AFStreamingMultipartFormData appendPartWithFileURL:name:error:]
+-[AFStreamingMultipartFormData appendPartWithFileURL:name:fileName:mimeType:error:]
+-[AFStreamingMultipartFormData appendPartWithInputStream:name:fileName:length:mimeType:]
+-[AFStreamingMultipartFormData appendPartWithFileData:name:fileName:mimeType:]
+-[AFStreamingMultipartFormData appendPartWithFormData:name:]
+-[AFStreamingMultipartFormData appendPartWithHeaders:body:]
+-[AFStreamingMultipartFormData throttleBandwidthWithPacketSize:delay:]
+-[AFStreamingMultipartFormData requestByFinalizingMultipartFormData]
+-[AFStreamingMultipartFormData request]
+-[AFStreamingMultipartFormData setRequest:]
+-[AFStreamingMultipartFormData stringEncoding]
+-[AFStreamingMultipartFormData setStringEncoding:]
+-[AFStreamingMultipartFormData boundary]
+-[AFStreamingMultipartFormData setBoundary:]
+-[AFStreamingMultipartFormData bodyStream]
+-[AFStreamingMultipartFormData setBodyStream:]
+-[AFStreamingMultipartFormData .cxx_destruct]
+-[AFMultipartBodyStream initWithStringEncoding:]
+-[AFMultipartBodyStream setInitialAndFinalBoundaries]
+-[AFMultipartBodyStream appendHTTPBodyPart:]
+-[AFMultipartBodyStream isEmpty]
+-[AFMultipartBodyStream read:maxLength:]
+-[AFMultipartBodyStream getBuffer:length:]
+-[AFMultipartBodyStream hasBytesAvailable]
+-[AFMultipartBodyStream open]
+-[AFMultipartBodyStream close]
+-[AFMultipartBodyStream propertyForKey:]
+-[AFMultipartBodyStream setProperty:forKey:]
+-[AFMultipartBodyStream scheduleInRunLoop:forMode:]
+-[AFMultipartBodyStream removeFromRunLoop:forMode:]
+-[AFMultipartBodyStream contentLength]
+-[AFMultipartBodyStream _scheduleInCFRunLoop:forMode:]
+-[AFMultipartBodyStream _unscheduleFromCFRunLoop:forMode:]
+-[AFMultipartBodyStream _setCFClientFlags:callback:context:]
+-[AFMultipartBodyStream copyWithZone:]
+-[AFMultipartBodyStream delegate]
+-[AFMultipartBodyStream setDelegate:]
+-[AFMultipartBodyStream streamStatus]
+-[AFMultipartBodyStream setStreamStatus:]
+-[AFMultipartBodyStream streamError]
+-[AFMultipartBodyStream setStreamError:]
+-[AFMultipartBodyStream numberOfBytesInPacket]
+-[AFMultipartBodyStream setNumberOfBytesInPacket:]
+-[AFMultipartBodyStream delay]
+-[AFMultipartBodyStream setDelay:]
+-[AFMultipartBodyStream inputStream]
+-[AFMultipartBodyStream setInputStream:]
+-[AFMultipartBodyStream stringEncoding]
+-[AFMultipartBodyStream setStringEncoding:]
+-[AFMultipartBodyStream HTTPBodyParts]
+-[AFMultipartBodyStream setHTTPBodyParts:]
+-[AFMultipartBodyStream HTTPBodyPartEnumerator]
+-[AFMultipartBodyStream setHTTPBodyPartEnumerator:]
+-[AFMultipartBodyStream currentHTTPBodyPart]
+-[AFMultipartBodyStream setCurrentHTTPBodyPart:]
+-[AFMultipartBodyStream outputStream]
+-[AFMultipartBodyStream setOutputStream:]
+-[AFMultipartBodyStream buffer]
+-[AFMultipartBodyStream setBuffer:]
+-[AFMultipartBodyStream .cxx_destruct]
+-[AFHTTPBodyPart init]
+-[AFHTTPBodyPart dealloc]
+-[AFHTTPBodyPart inputStream]
+-[AFHTTPBodyPart stringForHeaders]
+-[AFHTTPBodyPart contentLength]
+-[AFHTTPBodyPart hasBytesAvailable]
+-[AFHTTPBodyPart read:maxLength:]
+-[AFHTTPBodyPart readData:intoBuffer:maxLength:]
+-[AFHTTPBodyPart transitionToNextPhase]
+___39-[AFHTTPBodyPart transitionToNextPhase]_block_invoke
+___copy_helper_block_.713
+___destroy_helper_block_.714
+-[AFHTTPBodyPart copyWithZone:]
+-[AFHTTPBodyPart stringEncoding]
+-[AFHTTPBodyPart setStringEncoding:]
+-[AFHTTPBodyPart headers]
+-[AFHTTPBodyPart setHeaders:]
+-[AFHTTPBodyPart boundary]
+-[AFHTTPBodyPart setBoundary:]
+-[AFHTTPBodyPart body]
+-[AFHTTPBodyPart setBody:]
+-[AFHTTPBodyPart bodyContentLength]
+-[AFHTTPBodyPart setBodyContentLength:]
+-[AFHTTPBodyPart setInputStream:]
+-[AFHTTPBodyPart hasInitialBoundary]
+-[AFHTTPBodyPart setHasInitialBoundary:]
+-[AFHTTPBodyPart hasFinalBoundary]
+-[AFHTTPBodyPart setHasFinalBoundary:]
+-[AFHTTPBodyPart .cxx_destruct]
++[AFJSONRequestSerializer serializer]
++[AFJSONRequestSerializer serializerWithWritingOptions:]
+-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]
+___76-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+___copy_helper_block_.749
+___destroy_helper_block_.750
+-[AFJSONRequestSerializer initWithCoder:]
+-[AFJSONRequestSerializer encodeWithCoder:]
+-[AFJSONRequestSerializer copyWithZone:]
+-[AFJSONRequestSerializer writingOptions]
+-[AFJSONRequestSerializer setWritingOptions:]
++[AFPropertyListRequestSerializer serializer]
++[AFPropertyListRequestSerializer serializerWithFormat:writeOptions:]
+-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]
+___84-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+___copy_helper_block_.773
+___destroy_helper_block_.774
+-[AFPropertyListRequestSerializer initWithCoder:]
+-[AFPropertyListRequestSerializer encodeWithCoder:]
+-[AFPropertyListRequestSerializer copyWithZone:]
+-[AFPropertyListRequestSerializer format]
+-[AFPropertyListRequestSerializer setFormat:]
+-[AFPropertyListRequestSerializer writeOptions]
+-[AFPropertyListRequestSerializer setWriteOptions:]
+_AFHTTPRequestSerializerObservedKeyPaths
+___AFHTTPRequestSerializerObservedKeyPaths_block_invoke
+_AFURLRequestSerializationErrorDomain
+_AFNetworkingOperationFailingURLRequestErrorKey
+_OBJC_CLASS_$_AFQueryStringPair
+_OBJC_IVAR_$_AFQueryStringPair._field
+_OBJC_IVAR_$_AFQueryStringPair._value
+_OBJC_METACLASS_$_AFQueryStringPair
+_AFHTTPRequestSerializerObserverContext
+_OBJC_IVAR_$_AFHTTPRequestSerializer._allowsCellularAccess
+_OBJC_IVAR_$_AFHTTPRequestSerializer._cachePolicy
+_OBJC_IVAR_$_AFHTTPRequestSerializer._HTTPShouldHandleCookies
+_OBJC_IVAR_$_AFHTTPRequestSerializer._HTTPShouldUsePipelining
+_OBJC_IVAR_$_AFHTTPRequestSerializer._networkServiceType
+_OBJC_IVAR_$_AFHTTPRequestSerializer._timeoutInterval
+_OBJC_CLASS_$_AFStreamingMultipartFormData
+___block_descriptor_tmp.273
+___block_descriptor_tmp.276
+___block_descriptor_tmp.286
+_OBJC_METACLASS_$_AFHTTPRequestSerializer
+_OBJC_IVAR_$_AFHTTPRequestSerializer._stringEncoding
+_OBJC_IVAR_$_AFHTTPRequestSerializer._HTTPMethodsEncodingParametersInURI
+_OBJC_IVAR_$_AFHTTPRequestSerializer._mutableObservedChangedKeyPaths
+_OBJC_IVAR_$_AFHTTPRequestSerializer._mutableHTTPRequestHeaders
+_OBJC_IVAR_$_AFHTTPRequestSerializer._queryStringSerializationStyle
+_OBJC_IVAR_$_AFHTTPRequestSerializer._queryStringSerialization
+l_OBJC_PROTOCOL_$_AFURLRequestSerialization
+l_OBJC_LABEL_PROTOCOL_$_AFURLRequestSerialization
+_kAFUploadStream3GSuggestedPacketSize
+_kAFUploadStream3GSuggestedDelay
+_OBJC_CLASS_$_AFMultipartBodyStream
+_OBJC_CLASS_$_AFHTTPBodyPart
+_OBJC_IVAR_$_AFStreamingMultipartFormData._request
+_OBJC_IVAR_$_AFStreamingMultipartFormData._stringEncoding
+_OBJC_IVAR_$_AFStreamingMultipartFormData._boundary
+_OBJC_IVAR_$_AFStreamingMultipartFormData._bodyStream
+l_OBJC_PROTOCOL_$_AFMultipartFormData
+l_OBJC_LABEL_PROTOCOL_$_AFMultipartFormData
+_OBJC_METACLASS_$_AFStreamingMultipartFormData
+_OBJC_IVAR_$_AFMultipartBodyStream.delegate
+_OBJC_IVAR_$_AFMultipartBodyStream.streamStatus
+_OBJC_IVAR_$_AFMultipartBodyStream.streamError
+_OBJC_IVAR_$_AFMultipartBodyStream._numberOfBytesInPacket
+_OBJC_IVAR_$_AFMultipartBodyStream._delay
+_OBJC_IVAR_$_AFMultipartBodyStream._inputStream
+_OBJC_IVAR_$_AFMultipartBodyStream._stringEncoding
+_OBJC_IVAR_$_AFMultipartBodyStream._HTTPBodyParts
+_OBJC_IVAR_$_AFMultipartBodyStream._HTTPBodyPartEnumerator
+_OBJC_IVAR_$_AFMultipartBodyStream._currentHTTPBodyPart
+_OBJC_IVAR_$_AFMultipartBodyStream._outputStream
+_OBJC_IVAR_$_AFMultipartBodyStream._buffer
+l_OBJC_PROTOCOL_$_NSStreamDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+_OBJC_METACLASS_$_AFMultipartBodyStream
+_OBJC_IVAR_$_AFHTTPBodyPart._inputStream
+_OBJC_IVAR_$_AFHTTPBodyPart._bodyContentLength
+_OBJC_IVAR_$_AFHTTPBodyPart._phase
+_OBJC_IVAR_$_AFHTTPBodyPart._phaseReadOffset
+___block_descriptor_tmp.715
+_OBJC_IVAR_$_AFHTTPBodyPart._stringEncoding
+_OBJC_IVAR_$_AFHTTPBodyPart._headers
+_OBJC_IVAR_$_AFHTTPBodyPart._boundary
+_OBJC_IVAR_$_AFHTTPBodyPart._body
+_OBJC_IVAR_$_AFHTTPBodyPart._hasInitialBoundary
+_OBJC_IVAR_$_AFHTTPBodyPart._hasFinalBoundary
+_OBJC_METACLASS_$_AFHTTPBodyPart
+_OBJC_CLASS_$_AFJSONRequestSerializer
+___block_descriptor_tmp.751
+_OBJC_IVAR_$_AFJSONRequestSerializer._writingOptions
+_OBJC_METACLASS_$_AFJSONRequestSerializer
+_OBJC_CLASS_$_AFPropertyListRequestSerializer
+___block_descriptor_tmp.775
+_OBJC_IVAR_$_AFPropertyListRequestSerializer._format
+_OBJC_IVAR_$_AFPropertyListRequestSerializer._writeOptions
+_OBJC_METACLASS_$_AFPropertyListRequestSerializer
+_AFHTTPRequestSerializerObservedKeyPaths._AFHTTPRequestSerializerObservedKeyPaths
+_AFHTTPRequestSerializerObservedKeyPaths.onceToken
+___block_descriptor_tmp.795
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+__AFHTTPRequestSerializerObservedKeyPaths_block_invoke
+AFHTTPRequestSerializerObservedKeyPaths
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+__84-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__76-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__39-[AFHTTPBodyPart transitionToNextPhase]_block_invoke
+AFMultipartFormFinalBoundary
+AFMultipartFormEncapsulationBoundary
+AFMultipartFormInitialBoundary
+-[NSStream setStreamError:]
+-[NSStream streamError]
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h
+-[NSStream setStreamStatus:]
+-[NSStream streamStatus]
+-[NSStream setDelegate:]
+-[NSStream delegate]
+AFContentTypeForPathExtension
+AFCreateMultipartFormBoundary
+__76-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke_2
+__105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke
+AFQueryStringPairsFromDictionary
+__31-[AFHTTPRequestSerializer init]_block_invoke
+AFQueryStringPairsFromKeyAndValue
+AFQueryStringFromParameters
+AFPercentEscapedStringFromString
++[AFHTTPResponseSerializer serializer]
+-[AFHTTPResponseSerializer init]
+-[AFHTTPResponseSerializer validateResponse:data:error:]
+_AFErrorWithUnderlyingError
+-[AFHTTPResponseSerializer responseObjectForResponse:data:error:]
++[AFHTTPResponseSerializer supportsSecureCoding]
+-[AFHTTPResponseSerializer initWithCoder:]
+-[AFHTTPResponseSerializer encodeWithCoder:]
+-[AFHTTPResponseSerializer copyWithZone:]
+-[AFHTTPResponseSerializer stringEncoding]
+-[AFHTTPResponseSerializer setStringEncoding:]
+-[AFHTTPResponseSerializer acceptableStatusCodes]
+-[AFHTTPResponseSerializer setAcceptableStatusCodes:]
+-[AFHTTPResponseSerializer acceptableContentTypes]
+-[AFHTTPResponseSerializer setAcceptableContentTypes:]
+-[AFHTTPResponseSerializer .cxx_destruct]
++[AFJSONResponseSerializer serializer]
++[AFJSONResponseSerializer serializerWithReadingOptions:]
+-[AFJSONResponseSerializer init]
+-[AFJSONResponseSerializer responseObjectForResponse:data:error:]
+_AFErrorOrUnderlyingErrorHasCodeInDomain
+_AFJSONObjectByRemovingKeysWithNullValues
+-[AFJSONResponseSerializer initWithCoder:]
+-[AFJSONResponseSerializer encodeWithCoder:]
+-[AFJSONResponseSerializer copyWithZone:]
+-[AFJSONResponseSerializer readingOptions]
+-[AFJSONResponseSerializer setReadingOptions:]
+-[AFJSONResponseSerializer removesKeysWithNullValues]
+-[AFJSONResponseSerializer setRemovesKeysWithNullValues:]
++[AFXMLParserResponseSerializer serializer]
+-[AFXMLParserResponseSerializer init]
+-[AFXMLParserResponseSerializer responseObjectForResponse:data:error:]
++[AFPropertyListResponseSerializer serializer]
++[AFPropertyListResponseSerializer serializerWithFormat:readOptions:]
+-[AFPropertyListResponseSerializer init]
+-[AFPropertyListResponseSerializer responseObjectForResponse:data:error:]
+-[AFPropertyListResponseSerializer initWithCoder:]
+-[AFPropertyListResponseSerializer encodeWithCoder:]
+-[AFPropertyListResponseSerializer copyWithZone:]
+-[AFPropertyListResponseSerializer format]
+-[AFPropertyListResponseSerializer setFormat:]
+-[AFPropertyListResponseSerializer readOptions]
+-[AFPropertyListResponseSerializer setReadOptions:]
++[UIImage(AFNetworkingSafeImageLoading) af_safeImageWithData:]
+___62+[UIImage(AFNetworkingSafeImageLoading) af_safeImageWithData:]_block_invoke
+-[AFImageResponseSerializer init]
+-[AFImageResponseSerializer responseObjectForResponse:data:error:]
+_AFImageWithDataAtScale
+-[AFImageResponseSerializer initWithCoder:]
+-[AFImageResponseSerializer encodeWithCoder:]
+-[AFImageResponseSerializer copyWithZone:]
+-[AFImageResponseSerializer imageScale]
+-[AFImageResponseSerializer setImageScale:]
+-[AFImageResponseSerializer automaticallyInflatesResponseImage]
+-[AFImageResponseSerializer setAutomaticallyInflatesResponseImage:]
++[AFCompoundResponseSerializer compoundSerializerWithResponseSerializers:]
+-[AFCompoundResponseSerializer responseObjectForResponse:data:error:]
+-[AFCompoundResponseSerializer initWithCoder:]
+-[AFCompoundResponseSerializer encodeWithCoder:]
+-[AFCompoundResponseSerializer copyWithZone:]
+-[AFCompoundResponseSerializer responseSerializers]
+-[AFCompoundResponseSerializer setResponseSerializers:]
+-[AFCompoundResponseSerializer .cxx_destruct]
+_AFURLResponseSerializationErrorDomain
+_AFNetworkingOperationFailingURLResponseErrorKey
+_AFNetworkingOperationFailingURLResponseDataErrorKey
+_OBJC_IVAR_$_AFHTTPResponseSerializer._stringEncoding
+_OBJC_IVAR_$_AFHTTPResponseSerializer._acceptableStatusCodes
+_OBJC_IVAR_$_AFHTTPResponseSerializer._acceptableContentTypes
+l_OBJC_PROTOCOL_$_AFURLResponseSerialization
+l_OBJC_LABEL_PROTOCOL_$_AFURLResponseSerialization
+_OBJC_METACLASS_$_AFHTTPResponseSerializer
+_OBJC_IVAR_$_AFJSONResponseSerializer._readingOptions
+_OBJC_IVAR_$_AFJSONResponseSerializer._removesKeysWithNullValues
+_OBJC_METACLASS_$_AFJSONResponseSerializer
+_OBJC_CLASS_$_AFXMLParserResponseSerializer
+_OBJC_METACLASS_$_AFXMLParserResponseSerializer
+_OBJC_CLASS_$_AFPropertyListResponseSerializer
+_OBJC_IVAR_$_AFPropertyListResponseSerializer._format
+_OBJC_IVAR_$_AFPropertyListResponseSerializer._readOptions
+_OBJC_METACLASS_$_AFPropertyListResponseSerializer
+_imageLock
+_af_safeImageWithData:.onceToken
+_OBJC_IVAR_$_AFImageResponseSerializer._imageScale
+_OBJC_IVAR_$_AFImageResponseSerializer._automaticallyInflatesResponseImage
+_OBJC_METACLASS_$_AFImageResponseSerializer
+_OBJC_CLASS_$_AFCompoundResponseSerializer
+_OBJC_IVAR_$_AFCompoundResponseSerializer._responseSerializers
+_OBJC_METACLASS_$_AFCompoundResponseSerializer
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+AFImageWithDataAtScale
+AFInflatedImageFromResponseWithDataAtScale
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__62+[UIImage(AFNetworkingSafeImageLoading) af_safeImageWithData:]_block_invoke
+AFJSONObjectByRemovingKeysWithNullValues
+AFErrorOrUnderlyingErrorHasCodeInDomain
+AFErrorWithUnderlyingError
+-[AFURLSessionManagerTaskDelegate init]
+-[AFURLSessionManagerTaskDelegate setupProgressForTask:]
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.53
+___copy_helper_block_.56
+___destroy_helper_block_.57
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.65
+___copy_helper_block_.68
+___destroy_helper_block_.69
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.71
+___copy_helper_block_.72
+___destroy_helper_block_.73
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.75
+___copy_helper_block_.76
+___destroy_helper_block_.77
+___56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.79
+___copy_helper_block_.80
+___destroy_helper_block_.81
+-[AFURLSessionManagerTaskDelegate cleanUpProgressForTask:]
+-[AFURLSessionManagerTaskDelegate observeValueForKeyPath:ofObject:change:context:]
+-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2
+___copy_helper_block_.141
+___destroy_helper_block_.142
+___copy_helper_block_.144
+___destroy_helper_block_.145
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke.147
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2.150
+___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_3
+___copy_helper_block_.151
+___destroy_helper_block_.152
+___copy_helper_block_.154
+___destroy_helper_block_.155
+___copy_helper_block_.157
+___destroy_helper_block_.158
+-[AFURLSessionManagerTaskDelegate URLSession:dataTask:didReceiveData:]
+-[AFURLSessionManagerTaskDelegate URLSession:downloadTask:didFinishDownloadingToURL:]
+-[AFURLSessionManagerTaskDelegate manager]
+-[AFURLSessionManagerTaskDelegate setManager:]
+-[AFURLSessionManagerTaskDelegate mutableData]
+-[AFURLSessionManagerTaskDelegate setMutableData:]
+-[AFURLSessionManagerTaskDelegate uploadProgress]
+-[AFURLSessionManagerTaskDelegate setUploadProgress:]
+-[AFURLSessionManagerTaskDelegate downloadProgress]
+-[AFURLSessionManagerTaskDelegate setDownloadProgress:]
+-[AFURLSessionManagerTaskDelegate downloadFileURL]
+-[AFURLSessionManagerTaskDelegate setDownloadFileURL:]
+-[AFURLSessionManagerTaskDelegate downloadTaskDidFinishDownloading]
+-[AFURLSessionManagerTaskDelegate setDownloadTaskDidFinishDownloading:]
+-[AFURLSessionManagerTaskDelegate uploadProgressBlock]
+-[AFURLSessionManagerTaskDelegate setUploadProgressBlock:]
+-[AFURLSessionManagerTaskDelegate downloadProgressBlock]
+-[AFURLSessionManagerTaskDelegate setDownloadProgressBlock:]
+-[AFURLSessionManagerTaskDelegate completionHandler]
+-[AFURLSessionManagerTaskDelegate setCompletionHandler:]
+-[AFURLSessionManagerTaskDelegate .cxx_destruct]
++[_AFURLSessionTaskSwizzling load]
++[_AFURLSessionTaskSwizzling swizzleResumeAndSuspendMethodForClass:]
+-[_AFURLSessionTaskSwizzling state]
+-[_AFURLSessionTaskSwizzling af_resume]
+-[_AFURLSessionTaskSwizzling af_suspend]
+-[AFURLSessionManager init]
+-[AFURLSessionManager initWithSessionConfiguration:]
+___52-[AFURLSessionManager initWithSessionConfiguration:]_block_invoke
+___copy_helper_block_.387
+___destroy_helper_block_.388
+-[AFURLSessionManager dealloc]
+-[AFURLSessionManager taskDescriptionForSessionTasks]
+-[AFURLSessionManager taskDidResume:]
+___37-[AFURLSessionManager taskDidResume:]_block_invoke
+___copy_helper_block_.408
+___destroy_helper_block_.409
+-[AFURLSessionManager taskDidSuspend:]
+___38-[AFURLSessionManager taskDidSuspend:]_block_invoke
+___copy_helper_block_.411
+___destroy_helper_block_.412
+-[AFURLSessionManager delegateForTask:]
+-[AFURLSessionManager setDelegate:forTask:]
+-[AFURLSessionManager addDelegateForDataTask:uploadProgress:downloadProgress:completionHandler:]
+-[AFURLSessionManager addDelegateForUploadTask:progress:completionHandler:]
+-[AFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]
+___89-[AFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.435
+___destroy_helper_block_.436
+-[AFURLSessionManager removeDelegateForTask:]
+-[AFURLSessionManager tasksForKeyPath:]
+___39-[AFURLSessionManager tasksForKeyPath:]_block_invoke
+___copy_helper_block_.462
+___destroy_helper_block_.463
+-[AFURLSessionManager tasks]
+-[AFURLSessionManager dataTasks]
+-[AFURLSessionManager uploadTasks]
+-[AFURLSessionManager downloadTasks]
+-[AFURLSessionManager invalidateSessionCancelingTasks:]
+___55-[AFURLSessionManager invalidateSessionCancelingTasks:]_block_invoke
+___copy_helper_block_.469
+___destroy_helper_block_.470
+-[AFURLSessionManager setResponseSerializer:]
+-[AFURLSessionManager addNotificationObserverForTask:]
+-[AFURLSessionManager removeNotificationObserverForTask:]
+-[AFURLSessionManager dataTaskWithRequest:completionHandler:]
+-[AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]
+_url_session_manager_create_task_safely
+___93-[AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]_block_invoke
+___copy_helper_block_.484
+___destroy_helper_block_.485
+-[AFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]
+___81-[AFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]_block_invoke
+___copy_helper_block_.489
+___destroy_helper_block_.490
+-[AFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]
+___81-[AFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]_block_invoke
+___copy_helper_block_.500
+___destroy_helper_block_.501
+-[AFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]
+___80-[AFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]_block_invoke
+___copy_helper_block_.505
+___destroy_helper_block_.506
+-[AFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]
+___86-[AFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.510
+___destroy_helper_block_.511
+-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]
+___89-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.515
+___destroy_helper_block_.516
+-[AFURLSessionManager uploadProgressForTask:]
+-[AFURLSessionManager downloadProgressForTask:]
+-[AFURLSessionManager setSessionDidBecomeInvalidBlock:]
+-[AFURLSessionManager setSessionDidReceiveAuthenticationChallengeBlock:]
+-[AFURLSessionManager setDidFinishEventsForBackgroundURLSessionBlock:]
+-[AFURLSessionManager setTaskNeedNewBodyStreamBlock:]
+-[AFURLSessionManager setTaskWillPerformHTTPRedirectionBlock:]
+-[AFURLSessionManager setTaskDidReceiveAuthenticationChallengeBlock:]
+-[AFURLSessionManager setTaskDidSendBodyDataBlock:]
+-[AFURLSessionManager setTaskDidCompleteBlock:]
+-[AFURLSessionManager setDataTaskDidReceiveResponseBlock:]
+-[AFURLSessionManager setDataTaskDidBecomeDownloadTaskBlock:]
+-[AFURLSessionManager setDataTaskDidReceiveDataBlock:]
+-[AFURLSessionManager setDataTaskWillCacheResponseBlock:]
+-[AFURLSessionManager setDownloadTaskDidFinishDownloadingBlock:]
+-[AFURLSessionManager setDownloadTaskDidWriteDataBlock:]
+-[AFURLSessionManager setDownloadTaskDidResumeBlock:]
+-[AFURLSessionManager description]
+-[AFURLSessionManager respondsToSelector:]
+-[AFURLSessionManager URLSession:didBecomeInvalidWithError:]
+-[AFURLSessionManager URLSession:didReceiveChallenge:completionHandler:]
+-[AFURLSessionManager URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[AFURLSessionManager URLSession:task:didReceiveChallenge:completionHandler:]
+-[AFURLSessionManager URLSession:task:needNewBodyStream:]
+-[AFURLSessionManager URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[AFURLSessionManager URLSession:task:didCompleteWithError:]
+-[AFURLSessionManager URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[AFURLSessionManager URLSession:dataTask:didBecomeDownloadTask:]
+-[AFURLSessionManager URLSession:dataTask:didReceiveData:]
+-[AFURLSessionManager URLSession:dataTask:willCacheResponse:completionHandler:]
+-[AFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]
+___72-[AFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
+___copy_helper_block_.609
+___destroy_helper_block_.610
+-[AFURLSessionManager URLSession:downloadTask:didFinishDownloadingToURL:]
+-[AFURLSessionManager URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[AFURLSessionManager URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
++[AFURLSessionManager supportsSecureCoding]
+-[AFURLSessionManager initWithCoder:]
+-[AFURLSessionManager encodeWithCoder:]
+-[AFURLSessionManager copyWithZone:]
+-[AFURLSessionManager session]
+-[AFURLSessionManager setSession:]
+-[AFURLSessionManager operationQueue]
+-[AFURLSessionManager setOperationQueue:]
+-[AFURLSessionManager responseSerializer]
+-[AFURLSessionManager securityPolicy]
+-[AFURLSessionManager setSecurityPolicy:]
+-[AFURLSessionManager reachabilityManager]
+-[AFURLSessionManager setReachabilityManager:]
+-[AFURLSessionManager completionQueue]
+-[AFURLSessionManager setCompletionQueue:]
+-[AFURLSessionManager completionGroup]
+-[AFURLSessionManager setCompletionGroup:]
+-[AFURLSessionManager attemptsToRecreateUploadTasksForBackgroundSessions]
+-[AFURLSessionManager setAttemptsToRecreateUploadTasksForBackgroundSessions:]
+-[AFURLSessionManager sessionConfiguration]
+-[AFURLSessionManager setSessionConfiguration:]
+-[AFURLSessionManager mutableTaskDelegatesKeyedByTaskIdentifier]
+-[AFURLSessionManager setMutableTaskDelegatesKeyedByTaskIdentifier:]
+-[AFURLSessionManager lock]
+-[AFURLSessionManager setLock:]
+-[AFURLSessionManager sessionDidBecomeInvalid]
+-[AFURLSessionManager setSessionDidBecomeInvalid:]
+-[AFURLSessionManager sessionDidReceiveAuthenticationChallenge]
+-[AFURLSessionManager setSessionDidReceiveAuthenticationChallenge:]
+-[AFURLSessionManager didFinishEventsForBackgroundURLSession]
+-[AFURLSessionManager setDidFinishEventsForBackgroundURLSession:]
+-[AFURLSessionManager taskWillPerformHTTPRedirection]
+-[AFURLSessionManager setTaskWillPerformHTTPRedirection:]
+-[AFURLSessionManager taskDidReceiveAuthenticationChallenge]
+-[AFURLSessionManager setTaskDidReceiveAuthenticationChallenge:]
+-[AFURLSessionManager taskNeedNewBodyStream]
+-[AFURLSessionManager setTaskNeedNewBodyStream:]
+-[AFURLSessionManager taskDidSendBodyData]
+-[AFURLSessionManager setTaskDidSendBodyData:]
+-[AFURLSessionManager taskDidComplete]
+-[AFURLSessionManager setTaskDidComplete:]
+-[AFURLSessionManager dataTaskDidReceiveResponse]
+-[AFURLSessionManager setDataTaskDidReceiveResponse:]
+-[AFURLSessionManager dataTaskDidBecomeDownloadTask]
+-[AFURLSessionManager setDataTaskDidBecomeDownloadTask:]
+-[AFURLSessionManager dataTaskDidReceiveData]
+-[AFURLSessionManager setDataTaskDidReceiveData:]
+-[AFURLSessionManager dataTaskWillCacheResponse]
+-[AFURLSessionManager setDataTaskWillCacheResponse:]
+-[AFURLSessionManager downloadTaskDidFinishDownloading]
+-[AFURLSessionManager setDownloadTaskDidFinishDownloading:]
+-[AFURLSessionManager downloadTaskDidWriteData]
+-[AFURLSessionManager setDownloadTaskDidWriteData:]
+-[AFURLSessionManager downloadTaskDidResume]
+-[AFURLSessionManager setDownloadTaskDidResume:]
+-[AFURLSessionManager .cxx_destruct]
+_url_session_manager_completion_group
+___url_session_manager_completion_group_block_invoke
+___url_session_manager_processing_queue_block_invoke
+___url_session_manager_creation_queue_block_invoke
+_AFURLSessionDidInvalidateNotification
+_AFURLSessionDownloadTaskDidFailToMoveFileNotification
+_AFNetworkingTaskDidCompleteSerializedResponseKey
+_AFNetworkingTaskDidCompleteResponseSerializerKey
+_AFNetworkingTaskDidCompleteResponseDataKey
+_AFNetworkingTaskDidCompleteErrorKey
+_AFNetworkingTaskDidCompleteAssetPathKey
+_OBJC_CLASS_$_AFURLSessionManagerTaskDelegate
+___block_descriptor_tmp.58
+___block_descriptor_tmp.70
+___block_descriptor_tmp.74
+___block_descriptor_tmp.78
+___block_descriptor_tmp.82
+___block_descriptor_tmp.143
+___block_descriptor_tmp.146
+___block_descriptor_tmp.153
+___block_descriptor_tmp.156
+___block_descriptor_tmp.159
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._manager
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._mutableData
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._uploadProgress
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._downloadProgress
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._downloadFileURL
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._downloadTaskDidFinishDownloading
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._uploadProgressBlock
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._downloadProgressBlock
+_OBJC_IVAR_$_AFURLSessionManagerTaskDelegate._completionHandler
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDownloadDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDownloadDelegate
+_OBJC_METACLASS_$_AFURLSessionManagerTaskDelegate
+_OBJC_METACLASS_$__AFURLSessionTaskSwizzling
+_OBJC_CLASS_$__AFURLSessionTaskSwizzling
+___block_descriptor_tmp.390
+___block_descriptor_tmp.410
+___block_descriptor_tmp.413
+___block_descriptor_tmp.438
+___block_descriptor_tmp.464
+___block_descriptor_tmp.471
+_OBJC_IVAR_$_AFURLSessionManager._responseSerializer
+___block_descriptor_tmp.486
+___block_descriptor_tmp.491
+___block_descriptor_tmp.502
+___block_descriptor_tmp.507
+___block_descriptor_tmp.512
+___block_descriptor_tmp.517
+l_OBJC_PROTOCOL_REFERENCE_$_NSCopying
+___block_descriptor_tmp.611
+_OBJC_IVAR_$_AFURLSessionManager._session
+_OBJC_IVAR_$_AFURLSessionManager._operationQueue
+_OBJC_IVAR_$_AFURLSessionManager._securityPolicy
+_OBJC_IVAR_$_AFURLSessionManager._reachabilityManager
+_OBJC_IVAR_$_AFURLSessionManager._completionQueue
+_OBJC_IVAR_$_AFURLSessionManager._completionGroup
+_OBJC_IVAR_$_AFURLSessionManager._attemptsToRecreateUploadTasksForBackgroundSessions
+_OBJC_IVAR_$_AFURLSessionManager._sessionConfiguration
+_OBJC_IVAR_$_AFURLSessionManager._mutableTaskDelegatesKeyedByTaskIdentifier
+_OBJC_IVAR_$_AFURLSessionManager._lock
+_OBJC_IVAR_$_AFURLSessionManager._sessionDidBecomeInvalid
+_OBJC_IVAR_$_AFURLSessionManager._sessionDidReceiveAuthenticationChallenge
+_OBJC_IVAR_$_AFURLSessionManager._didFinishEventsForBackgroundURLSession
+_OBJC_IVAR_$_AFURLSessionManager._taskWillPerformHTTPRedirection
+_OBJC_IVAR_$_AFURLSessionManager._taskDidReceiveAuthenticationChallenge
+_OBJC_IVAR_$_AFURLSessionManager._taskNeedNewBodyStream
+_OBJC_IVAR_$_AFURLSessionManager._taskDidSendBodyData
+_OBJC_IVAR_$_AFURLSessionManager._taskDidComplete
+_OBJC_IVAR_$_AFURLSessionManager._dataTaskDidReceiveResponse
+_OBJC_IVAR_$_AFURLSessionManager._dataTaskDidBecomeDownloadTask
+_OBJC_IVAR_$_AFURLSessionManager._dataTaskDidReceiveData
+_OBJC_IVAR_$_AFURLSessionManager._dataTaskWillCacheResponse
+_OBJC_IVAR_$_AFURLSessionManager._downloadTaskDidFinishDownloading
+_OBJC_IVAR_$_AFURLSessionManager._downloadTaskDidWriteData
+_OBJC_IVAR_$_AFURLSessionManager._downloadTaskDidResume
+_url_session_manager_completion_group.af_url_session_manager_completion_group
+_url_session_manager_completion_group.onceToken
+___block_descriptor_tmp.763
+_url_session_manager_processing_queue.af_url_session_manager_processing_queue
+_url_session_manager_processing_queue.onceToken
+___block_descriptor_tmp.765
+___block_literal_global.766
+_url_session_manager_creation_queue.af_url_session_manager_creation_queue
+_url_session_manager_creation_queue.onceToken
+___block_descriptor_tmp.768
+___block_literal_global.769
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+__url_session_manager_creation_queue_block_invoke
+__url_session_manager_processing_queue_block_invoke
+__url_session_manager_completion_group_block_invoke
+url_session_manager_completion_group
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+__72-[AFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
+__89-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]_block_invoke
+__86-[AFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]_block_invoke
+__80-[AFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]_block_invoke
+__81-[AFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]_block_invoke
+__81-[AFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]_block_invoke
+__93-[AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]_block_invoke
+url_session_manager_create_task_safely
+url_session_manager_creation_queue
+__55-[AFURLSessionManager invalidateSessionCancelingTasks:]_block_invoke
+__39-[AFURLSessionManager tasksForKeyPath:]_block_invoke
+__89-[AFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]_block_invoke
+__38-[AFURLSessionManager taskDidSuspend:]_block_invoke
+__37-[AFURLSessionManager taskDidResume:]_block_invoke
+__52-[AFURLSessionManager initWithSessionConfiguration:]_block_invoke
+af_swizzleSelector
+af_addMethod
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_3
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2.150
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke.147
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2
+__72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke
+url_session_manager_processing_queue
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.79
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.75
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.71
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.65
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.53
+__56-[AFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke
+-[UIActivityIndicatorView(AFNetworking) af_notificationObserver]
+-[UIActivityIndicatorView(AFNetworking) setAnimatingWithStateOfTask:]
+-[AFActivityIndicatorViewNotificationObserver initWithActivityIndicatorView:]
+-[AFActivityIndicatorViewNotificationObserver setAnimatingWithStateOfTask:]
+-[AFActivityIndicatorViewNotificationObserver af_startAnimating]
+___64-[AFActivityIndicatorViewNotificationObserver af_startAnimating]_block_invoke
+-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]
+___63-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]_block_invoke
+___copy_helper_block_.29
+___destroy_helper_block_.30
+-[AFActivityIndicatorViewNotificationObserver dealloc]
+-[AFActivityIndicatorViewNotificationObserver activityIndicatorView]
+-[AFActivityIndicatorViewNotificationObserver .cxx_destruct]
+_OBJC_CLASS_$_AFActivityIndicatorViewNotificationObserver
+_OBJC_IVAR_$_AFActivityIndicatorViewNotificationObserver._activityIndicatorView
+___block_descriptor_tmp.31
+_OBJC_METACLASS_$_AFActivityIndicatorViewNotificationObserver
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+__63-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]_block_invoke
+__64-[AFActivityIndicatorViewNotificationObserver af_startAnimating]_block_invoke
+-[UIButton(_AFNetworking) af_imageDownloadReceiptForState:]
+-[UIButton(_AFNetworking) af_setImageDownloadReceipt:forState:]
+-[UIButton(_AFNetworking) af_backgroundImageDownloadReceiptForState:]
+-[UIButton(_AFNetworking) af_setBackgroundImageDownloadReceipt:forState:]
++[UIButton(AFNetworking) sharedImageDownloader]
++[UIButton(AFNetworking) setSharedImageDownloader:]
+-[UIButton(AFNetworking) setImageForState:withURL:]
+-[UIButton(AFNetworking) setImageForState:withURL:placeholderImage:]
+-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]
+___91-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+___91-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.41
+___copy_helper_block_.42
+___destroy_helper_block_.43
+-[UIButton(AFNetworking) setBackgroundImageForState:withURL:]
+-[UIButton(AFNetworking) setBackgroundImageForState:withURL:placeholderImage:]
+-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]
+___101-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+___copy_helper_block_.60
+___destroy_helper_block_.61
+___101-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.63
+___copy_helper_block_.64
+___destroy_helper_block_.65
+-[UIButton(AFNetworking) cancelImageDownloadTaskForState:]
+-[UIButton(AFNetworking) cancelBackgroundImageDownloadTaskForState:]
+-[UIButton(AFNetworking) isActiveTaskURLEqualToURLRequest:forState:]
+-[UIButton(AFNetworking) isActiveBackgroundTaskURLEqualToURLRequest:forState:]
+___block_descriptor_tmp.45
+___block_descriptor_tmp.62
+_AFImageDownloadReceiptHighlighted
+_AFImageDownloadReceiptSelected
+_AFImageDownloadReceiptDisabled
+_AFImageDownloadReceiptNormal
+_AFBackgroundImageDownloadReceiptHighlighted
+_AFBackgroundImageDownloadReceiptSelected
+_AFBackgroundImageDownloadReceiptDisabled
+_AFBackgroundImageDownloadReceiptNormal
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+__101-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.63
+__101-[UIButton(AFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+__91-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.41
+__91-[UIButton(AFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+af_backgroundImageDownloadReceiptKeyForState
+af_imageDownloadReceiptKeyForState
+-[UIImageView(_AFNetworking) af_activeImageDownloadReceipt]
+-[UIImageView(_AFNetworking) af_setActiveImageDownloadReceipt:]
++[UIImageView(AFNetworking) sharedImageDownloader]
++[UIImageView(AFNetworking) setSharedImageDownloader:]
+-[UIImageView(AFNetworking) setImageWithURL:]
+-[UIImageView(AFNetworking) setImageWithURL:placeholderImage:]
+-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]
+___85-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke
+___85-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke.43
+___copy_helper_block_.44
+___destroy_helper_block_.45
+-[UIImageView(AFNetworking) cancelImageDownloadTask]
+-[UIImageView(AFNetworking) clearActiveDownloadInformation]
+-[UIImageView(AFNetworking) isActiveTaskURLEqualToURLRequest:]
+___block_descriptor_tmp.47
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+__85-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke.43
+__85-[UIImageView(AFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke
+-[UIProgressView(AFNetworking) af_uploadProgressAnimated]
+-[UIProgressView(AFNetworking) af_setUploadProgressAnimated:]
+-[UIProgressView(AFNetworking) af_downloadProgressAnimated]
+-[UIProgressView(AFNetworking) af_setDownloadProgressAnimated:]
+-[UIProgressView(AFNetworking) setProgressWithUploadProgressOfTask:animated:]
+-[UIProgressView(AFNetworking) setProgressWithDownloadProgressOfTask:animated:]
+-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]
+___79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke
+___79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke.30
+___copy_helper_block_.31
+___destroy_helper_block_.32
+_AFTaskCountOfBytesSentContext
+_AFTaskCountOfBytesReceivedContext
+___block_descriptor_tmp.33
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+__79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke.30
+__79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke
+-[UIRefreshControl(AFNetworking) af_notificationObserver]
+-[UIRefreshControl(AFNetworking) setRefreshingWithStateOfTask:]
+-[AFRefreshControlNotificationObserver initWithActivityRefreshControl:]
+-[AFRefreshControlNotificationObserver setRefreshingWithStateOfTask:]
+-[AFRefreshControlNotificationObserver af_beginRefreshing]
+___58-[AFRefreshControlNotificationObserver af_beginRefreshing]_block_invoke
+-[AFRefreshControlNotificationObserver af_endRefreshing]
+___56-[AFRefreshControlNotificationObserver af_endRefreshing]_block_invoke
+-[AFRefreshControlNotificationObserver dealloc]
+-[AFRefreshControlNotificationObserver refreshControl]
+-[AFRefreshControlNotificationObserver .cxx_destruct]
+_OBJC_CLASS_$_AFRefreshControlNotificationObserver
+_OBJC_IVAR_$_AFRefreshControlNotificationObserver._refreshControl
+_OBJC_METACLASS_$_AFRefreshControlNotificationObserver
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+__56-[AFRefreshControlNotificationObserver af_endRefreshing]_block_invoke
+__58-[AFRefreshControlNotificationObserver af_beginRefreshing]_block_invoke
+-[UIWebView(_AFNetworking) af_URLSessionTask]
+-[UIWebView(_AFNetworking) af_setURLSessionTask:]
+-[UIWebView(AFNetworking) sessionManager]
+___41-[UIWebView(AFNetworking) sessionManager]_block_invoke
+-[UIWebView(AFNetworking) setSessionManager:]
+-[UIWebView(AFNetworking) responseSerializer]
+___45-[UIWebView(AFNetworking) responseSerializer]_block_invoke
+-[UIWebView(AFNetworking) setResponseSerializer:]
+-[UIWebView(AFNetworking) loadRequest:progress:success:failure:]
+___64-[UIWebView(AFNetworking) loadRequest:progress:success:failure:]_block_invoke
+-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]
+___90-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke
+___copy_helper_block_.59
+___destroy_helper_block_.60
+___90-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke.63
+_sessionManager._af_defaultHTTPSessionManager
+_sessionManager.onceToken
+_responseSerializer._af_defaultResponseSerializer
+_responseSerializer.onceToken
+___block_descriptor_tmp.21
+___block_literal_global.22
+___block_descriptor_tmp.67
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+__90-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke.63
+__90-[UIWebView(AFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke
+__64-[UIWebView(AFNetworking) loadRequest:progress:success:failure:]_block_invoke
+__45-[UIWebView(AFNetworking) responseSerializer]_block_invoke
+__41-[UIWebView(AFNetworking) sessionManager]_block_invoke
++[JSONAPI initialize]
+___21+[JSONAPI initialize]_block_invoke
++[JSONAPI setAPIBaseURLWithString:]
++[JSONAPI setContentType:]
++[JSONAPI getWithPath:andParams:completion:]
+___44+[JSONAPI getWithPath:andParams:completion:]_block_invoke
++[JSONAPI postWithPath:andParams:completion:]
+___45+[JSONAPI postWithPath:andParams:completion:]_block_invoke
+___copy_helper_block_.18
+___destroy_helper_block_.19
++[JSONAPI __rpcRequestWithObject:completion:]
+___45+[JSONAPI __rpcRequestWithObject:completion:]_block_invoke
++[JSONAPI rpcWithMethodName:andArguments:completion:]
++[JSONAPI rpc2WithMethodName:andParams:completion:]
+-[JSONAPI baseURLString]
+-[JSONAPI setBaseURLString:]
+-[JSONAPI .cxx_destruct]
+-[JSONAPIRPCErrorModel code]
+-[JSONAPIRPCErrorModel setCode:]
+-[JSONAPIRPCErrorModel message]
+-[JSONAPIRPCErrorModel setMessage:]
+-[JSONAPIRPCErrorModel data]
+-[JSONAPIRPCErrorModel setData:]
+-[JSONAPIRPCErrorModel .cxx_destruct]
+_sharedInstance
+_initialize.once
+_OBJC_CLASS_$_JSONAPI
+_OBJC_CLASS_$_JSONHTTPClient
+___block_descriptor_tmp.20
+_OBJC_CLASS_$_JSONAPIRPCErrorModel
+_OBJC_CLASS_$_JSONModelError
+_JSONModelErrorDomain
+___block_descriptor_tmp.55
+_jsonRpcId
+_OBJC_IVAR_$_JSONAPI._baseURLString
+_OBJC_METACLASS_$_JSONAPI
+_OBJC_IVAR_$_JSONAPIRPCErrorModel._code
+_OBJC_IVAR_$_JSONAPIRPCErrorModel._message
+_OBJC_IVAR_$_JSONAPIRPCErrorModel._data
+_OBJC_METACLASS_$_JSONAPIRPCErrorModel
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m
+__45+[JSONAPI __rpcRequestWithObject:completion:]_block_invoke
+__45+[JSONAPI postWithPath:andParams:completion:]_block_invoke
+__44+[JSONAPI getWithPath:andParams:completion:]_block_invoke
+__21+[JSONAPI initialize]_block_invoke
++[JSONHTTPClient initialize]
+___28+[JSONHTTPClient initialize]_block_invoke
++[JSONHTTPClient requestHeaders]
++[JSONHTTPClient setDefaultTextEncoding:]
++[JSONHTTPClient setCachingPolicy:]
++[JSONHTTPClient setTimeoutInSeconds:]
++[JSONHTTPClient setRequestContentType:]
++[JSONHTTPClient contentTypeForRequestString:]
++[JSONHTTPClient urlEncode:]
++[JSONHTTPClient requestDataFromURL:method:requestBody:headers:handler:]
+___72+[JSONHTTPClient requestDataFromURL:method:requestBody:headers:handler:]_block_invoke
+___72+[JSONHTTPClient requestDataFromURL:method:requestBody:headers:handler:]_block_invoke.96
+___copy_helper_block_.97
+___destroy_helper_block_.98
++[JSONHTTPClient requestDataFromURL:method:params:headers:handler:]
++[JSONHTTPClient JSONFromURLWithString:method:params:orBodyString:completion:]
++[JSONHTTPClient JSONFromURLWithString:method:params:orBodyString:headers:completion:]
++[JSONHTTPClient JSONFromURLWithString:method:params:orBodyData:headers:completion:]
+___84+[JSONHTTPClient JSONFromURLWithString:method:params:orBodyData:headers:completion:]_block_invoke
+___84+[JSONHTTPClient JSONFromURLWithString:method:params:orBodyData:headers:completion:]_block_invoke_2
+___copy_helper_block_.148
+___destroy_helper_block_.149
++[JSONHTTPClient getJSONFromURLWithString:completion:]
+___54+[JSONHTTPClient getJSONFromURLWithString:completion:]_block_invoke
++[JSONHTTPClient getJSONFromURLWithString:params:completion:]
+___61+[JSONHTTPClient getJSONFromURLWithString:params:completion:]_block_invoke
+___copy_helper_block_.163
+___destroy_helper_block_.164
++[JSONHTTPClient postJSONFromURLWithString:params:completion:]
+___62+[JSONHTTPClient postJSONFromURLWithString:params:completion:]_block_invoke
+___copy_helper_block_.166
+___destroy_helper_block_.167
++[JSONHTTPClient postJSONFromURLWithString:bodyString:completion:]
+___66+[JSONHTTPClient postJSONFromURLWithString:bodyString:completion:]_block_invoke
+___copy_helper_block_.169
+___destroy_helper_block_.170
++[JSONHTTPClient postJSONFromURLWithString:bodyData:completion:]
+___64+[JSONHTTPClient postJSONFromURLWithString:bodyData:completion:]_block_invoke
+___copy_helper_block_.172
+___destroy_helper_block_.173
+_kHTTPMethodGET
+_kHTTPMethodPOST
+_kContentTypeAutomatic
+_kContentTypeJSON
+_kContentTypeWWWEncoded
+_requestHeaders
+_requestContentType
+_defaultTextEncoding
+_defaultCachePolicy
+_defaultTimeoutInSeconds
+___block_descriptor_tmp.100
+___block_descriptor_tmp.150
+___block_descriptor_tmp.154
+___block_descriptor_tmp.160
+___block_descriptor_tmp.165
+___block_descriptor_tmp.168
+___block_descriptor_tmp.171
+___block_descriptor_tmp.174
+_OBJC_METACLASS_$_JSONHTTPClient
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m
+__64+[JSONHTTPClient postJSONFromURLWithString:bodyData:completion:]_block_invoke
+__66+[JSONHTTPClient postJSONFromURLWithString:bodyString:completion:]_block_invoke
+__62+[JSONHTTPClient postJSONFromURLWithString:params:completion:]_block_invoke
+__61+[JSONHTTPClient getJSONFromURLWithString:params:completion:]_block_invoke
+__54+[JSONHTTPClient getJSONFromURLWithString:completion:]_block_invoke
+__84+[JSONHTTPClient JSONFromURLWithString:method:params:orBodyData:headers:completion:]_block_invoke_2
+__84+[JSONHTTPClient JSONFromURLWithString:method:params:orBodyData:headers:completion:]_block_invoke
+__72+[JSONHTTPClient requestDataFromURL:method:requestBody:headers:handler:]_block_invoke.96
+__72+[JSONHTTPClient requestDataFromURL:method:requestBody:headers:handler:]_block_invoke
+__28+[JSONHTTPClient initialize]_block_invoke
+-[JSONKeyMapper init]
+-[JSONKeyMapper initWithJSONToModelBlock:modelToJSONBlock:]
+-[JSONKeyMapper initWithModelToJSONBlock:]
+___42-[JSONKeyMapper initWithModelToJSONBlock:]_block_invoke
+-[JSONKeyMapper initWithDictionary:]
+-[JSONKeyMapper initWithModelToJSONDictionary:]
+___47-[JSONKeyMapper initWithModelToJSONDictionary:]_block_invoke
+___copy_helper_block_.21
+___destroy_helper_block_.22
++[JSONKeyMapper swapKeysAndValuesInDictionary:]
+-[JSONKeyMapper convertValue:isImportingToModel:]
+-[JSONKeyMapper convertValue:]
++[JSONKeyMapper mapperFromUnderscoreCaseToCamelCase]
++[JSONKeyMapper mapperForSnakeCase]
+___35+[JSONKeyMapper mapperForSnakeCase]_block_invoke
++[JSONKeyMapper mapperForTitleCase]
+___35+[JSONKeyMapper mapperForTitleCase]_block_invoke
++[JSONKeyMapper mapperFromUpperCaseToLowerCase]
+___47+[JSONKeyMapper mapperFromUpperCaseToLowerCase]_block_invoke
++[JSONKeyMapper mapper:withExceptions:]
++[JSONKeyMapper baseMapper:withModelToJSONExceptions:]
+___54+[JSONKeyMapper baseMapper:withModelToJSONExceptions:]_block_invoke
+-[JSONKeyMapper JSONToModelKeyBlock]
+-[JSONKeyMapper modelToJSONKeyBlock]
+-[JSONKeyMapper toJSONMap]
+-[JSONKeyMapper setToJSONMap:]
+-[JSONKeyMapper lock]
+-[JSONKeyMapper setLock:]
+-[JSONKeyMapper .cxx_destruct]
+_OBJC_CLASS_$_JSONKeyMapper
+_OBJC_IVAR_$_JSONKeyMapper._toJSONMap
+_OBJC_IVAR_$_JSONKeyMapper._lock
+_OBJC_IVAR_$_JSONKeyMapper._modelToJSONKeyBlock
+___block_descriptor_tmp.23
+___block_descriptor_tmp.65
+___block_descriptor_tmp.72
+___block_literal_global.73
+___block_literal_global.75
+_OBJC_IVAR_$_JSONKeyMapper._JSONToModelKeyBlock
+_OBJC_METACLASS_$_JSONKeyMapper
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+__54+[JSONKeyMapper baseMapper:withModelToJSONExceptions:]_block_invoke
+__47+[JSONKeyMapper mapperFromUpperCaseToLowerCase]_block_invoke
+__35+[JSONKeyMapper mapperForTitleCase]_block_invoke
+__35+[JSONKeyMapper mapperForSnakeCase]_block_invoke
+__47-[JSONKeyMapper initWithModelToJSONDictionary:]_block_invoke
+__42-[JSONKeyMapper initWithModelToJSONBlock:]_block_invoke
+-[JSONModel(Networking) isLoading]
+-[JSONModel(Networking) setIsLoading:]
+-[JSONModel(Networking) initFromURLWithString:completion:]
+___58-[JSONModel(Networking) initFromURLWithString:completion:]_block_invoke
+___58-[JSONModel(Networking) initFromURLWithString:completion:]_block_invoke_2
+___copy_helper_block_.5
+___destroy_helper_block_.6
++[JSONModel(Networking) getModelFromURLWithString:completion:]
+___62+[JSONModel(Networking) getModelFromURLWithString:completion:]_block_invoke
+___62+[JSONModel(Networking) getModelFromURLWithString:completion:]_block_invoke_2
+___copy_helper_block_.13
+___destroy_helper_block_.14
+___copy_helper_block_.16
+___destroy_helper_block_.17
++[JSONModel(Networking) postModel:toURLWithString:completion:]
+___62+[JSONModel(Networking) postModel:toURLWithString:completion:]_block_invoke
+___62+[JSONModel(Networking) postModel:toURLWithString:completion:]_block_invoke_2
+___copy_helper_block_.24
+___destroy_helper_block_.25
+__isLoading
+___block_descriptor_tmp.8
+___block_descriptor_tmp.18
+___block_descriptor_tmp.27
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m
+__62+[JSONModel(Networking) postModel:toURLWithString:completion:]_block_invoke_2
+__62+[JSONModel(Networking) postModel:toURLWithString:completion:]_block_invoke
+__62+[JSONModel(Networking) getModelFromURLWithString:completion:]_block_invoke_2
+__62+[JSONModel(Networking) getModelFromURLWithString:completion:]_block_invoke
+__58-[JSONModel(Networking) initFromURLWithString:completion:]_block_invoke_2
+__58-[JSONModel(Networking) initFromURLWithString:completion:]_block_invoke
+_OBJC_METACLASS_$_PodsDummy_JSONModel
+_OBJC_CLASS_$_PodsDummy_JSONModel
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/Target Support Files/JSONModel/JSONModel-dummy.m
++[JSONModel load]
+___17+[JSONModel load]_block_invoke
+-[JSONModel __setup__]
+-[JSONModel init]
+-[JSONModel initWithData:error:]
+-[JSONModel initWithString:error:]
+-[JSONModel initWithString:usingEncoding:error:]
+-[JSONModel initWithDictionary:error:]
+-[JSONModel __keyMapper]
+-[JSONModel __doesDictionary:matchModelWithKeyMapper:error:]
+-[JSONModel __mapString:withKeyMapper:]
+-[JSONModel __importDictionary:withKeyMapper:validation:error:]
+_isNull
+-[JSONModel __isJSONModelSubClass:]
+-[JSONModel __requiredPropertyNames]
+___36-[JSONModel __requiredPropertyNames]_block_invoke
+___copy_helper_block_.161
+___destroy_helper_block_.162
+-[JSONModel __properties__]
+-[JSONModel __inspectProperties]
+-[JSONModel __transform:forProperty:error:]
+-[JSONModel __reverseTransform:forProperty:]
+-[JSONModel __customSetValue:forProperty:]
+-[JSONModel __customGetValue:forProperty:]
+-[JSONModel __createDictionariesForKeyPath:inDictionary:]
+-[JSONModel toDictionary]
+-[JSONModel toJSONString]
+-[JSONModel toJSONData]
+-[JSONModel toDictionaryWithKeys:]
+-[JSONModel toJSONDataWithKeys:]
+-[JSONModel toJSONStringWithKeys:]
++[JSONModel arrayOfModelsFromDictionaries:]
++[JSONModel arrayOfModelsFromData:error:]
++[JSONModel arrayOfModelsFromString:error:]
++[JSONModel arrayOfModelsFromDictionaries:error:]
++[JSONModel dictionaryOfModelsFromString:error:]
++[JSONModel dictionaryOfModelsFromData:error:]
++[JSONModel dictionaryOfModelsFromDictionary:error:]
++[JSONModel arrayOfDictionariesFromModels:]
++[JSONModel arrayOfDictionariesFromModels:propertyNamesToExport:]
++[JSONModel dictionaryOfDictionariesFromModels:]
+-[JSONModel indexPropertyName]
+-[JSONModel isEqual:]
+-[JSONModel compare:]
+-[JSONModel hash]
+-[JSONModel validate:]
+-[JSONModel description]
++[JSONModel keyMapper]
++[JSONModel setGlobalKeyMapper:]
++[JSONModel propertyIsOptional:]
++[JSONModel propertyIsIgnored:]
++[JSONModel protocolForArrayProperty:]
++[JSONModel classForCollectionProperty:]
+-[JSONModel mergeFromDictionary:useKeyMapping:]
+-[JSONModel mergeFromDictionary:useKeyMapping:error:]
+-[JSONModel copyWithZone:]
+-[JSONModel initWithCoder:]
+-[JSONModel encodeWithCoder:]
++[JSONModel supportsSecureCoding]
+-[JSONModel .cxx_destruct]
+_allowedJSONTypes
+_allowedPrimitiveTypes
+_valueTransformer
+_globalKeyMapper
+_load.once
+_OBJC_CLASS_$_JSONValueTransformer
+_JSONModelClass
+_kClassPropertiesKey
+_kMapperObjectKey
+_kClassRequiredPropertyNamesKey
+___block_descriptor_tmp.164
+_OBJC_CLASS_$_JSONModelClassProperty
+_kIndexPropertyNameKey
+_OBJC_IVAR_$_JSONModel._description
+l_OBJC_PROTOCOL_$_AbstractJSONModelProtocol
+l_OBJC_LABEL_PROTOCOL_$_AbstractJSONModelProtocol
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m
+__36-[JSONModel __requiredPropertyNames]_block_invoke
+__17+[JSONModel load]_block_invoke
+-[JSONModelClassProperty description]
+-[JSONModelClassProperty isIndex]
+-[JSONModelClassProperty setIsIndex:]
+-[JSONModelClassProperty name]
+-[JSONModelClassProperty setName:]
+-[JSONModelClassProperty type]
+-[JSONModelClassProperty setType:]
+-[JSONModelClassProperty structName]
+-[JSONModelClassProperty setStructName:]
+-[JSONModelClassProperty protocol]
+-[JSONModelClassProperty setProtocol:]
+-[JSONModelClassProperty isOptional]
+-[JSONModelClassProperty setIsOptional:]
+-[JSONModelClassProperty isStandardJSONType]
+-[JSONModelClassProperty setIsStandardJSONType:]
+-[JSONModelClassProperty isMutable]
+-[JSONModelClassProperty setIsMutable:]
+-[JSONModelClassProperty customGetter]
+-[JSONModelClassProperty setCustomGetter:]
+-[JSONModelClassProperty customSetters]
+-[JSONModelClassProperty setCustomSetters:]
+-[JSONModelClassProperty .cxx_destruct]
+_OBJC_IVAR_$_JSONModelClassProperty._isIndex
+_OBJC_IVAR_$_JSONModelClassProperty._name
+_OBJC_IVAR_$_JSONModelClassProperty._type
+_OBJC_IVAR_$_JSONModelClassProperty._structName
+_OBJC_IVAR_$_JSONModelClassProperty._protocol
+_OBJC_IVAR_$_JSONModelClassProperty._isOptional
+_OBJC_IVAR_$_JSONModelClassProperty._isStandardJSONType
+_OBJC_IVAR_$_JSONModelClassProperty._isMutable
+_OBJC_IVAR_$_JSONModelClassProperty._customGetter
+_OBJC_IVAR_$_JSONModelClassProperty._customSetters
+_OBJC_METACLASS_$_JSONModelClassProperty
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h
++[JSONModelError errorInvalidDataWithMessage:]
++[JSONModelError errorInvalidDataWithMissingKeys:]
++[JSONModelError errorInvalidDataWithTypeMismatch:]
++[JSONModelError errorBadResponse]
++[JSONModelError errorBadJSON]
++[JSONModelError errorModelIsInvalid]
++[JSONModelError errorInputIsNil]
+-[JSONModelError errorByPrependingKeyPathComponent:]
+-[JSONModelError httpResponse]
+-[JSONModelError setHttpResponse:]
+-[JSONModelError responseData]
+-[JSONModelError setResponseData:]
+-[JSONModelError .cxx_destruct]
+_kJSONModelMissingKeys
+_kJSONModelTypeMismatch
+_kJSONModelKeyPath
+_OBJC_IVAR_$_JSONModelError._httpResponse
+_OBJC_IVAR_$_JSONModelError._responseData
+_OBJC_METACLASS_$_JSONModelError
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+-[JSONValueTransformer init]
++[JSONValueTransformer classByResolvingClusterClasses:]
+-[JSONValueTransformer NSMutableStringFromNSString:]
+-[JSONValueTransformer NSMutableArrayFromNSArray:]
+-[JSONValueTransformer NSMutableDictionaryFromNSDictionary:]
+-[JSONValueTransformer NSSetFromNSArray:]
+-[JSONValueTransformer NSMutableSetFromNSArray:]
+-[JSONValueTransformer JSONObjectFromNSSet:]
+-[JSONValueTransformer JSONObjectFromNSMutableSet:]
+-[JSONValueTransformer BOOLFromNSNumber:]
+-[JSONValueTransformer BOOLFromNSString:]
+-[JSONValueTransformer JSONObjectFromBOOL:]
+-[JSONValueTransformer floatFromObject:]
+-[JSONValueTransformer floatFromNSString:]
+-[JSONValueTransformer floatFromNSNumber:]
+-[JSONValueTransformer NSNumberFromfloat:]
+-[JSONValueTransformer NSNumberFromNSString:]
+-[JSONValueTransformer NSStringFromNSNumber:]
+-[JSONValueTransformer NSDecimalNumberFromNSString:]
+-[JSONValueTransformer NSStringFromNSDecimalNumber:]
+-[JSONValueTransformer NSURLFromNSString:]
+-[JSONValueTransformer JSONObjectFromNSURL:]
+-[JSONValueTransformer importDateFormatter]
+___43-[JSONValueTransformer importDateFormatter]_block_invoke
+-[JSONValueTransformer __NSDateFromNSString:]
+-[JSONValueTransformer __JSONObjectFromNSDate:]
+___47-[JSONValueTransformer __JSONObjectFromNSDate:]_block_invoke
+-[JSONValueTransformer NSDateFromNSNumber:]
+-[JSONValueTransformer NSTimeZoneFromNSString:]
+-[JSONValueTransformer JSONObjectFromNSTimeZone:]
+-[JSONValueTransformer __NSDictionaryFromNSArray:]
+-[JSONValueTransformer __NSMutableDictionaryFromNSArray:]
+-[JSONValueTransformer primitivesNames]
+-[JSONValueTransformer .cxx_destruct]
+_OBJC_IVAR_$_JSONValueTransformer._primitivesNames
+_importDateFormatter.onceInput
+_importDateFormatter.inputDateFormatter
+___JSONObjectFromNSDate:.onceOutput
+___JSONObjectFromNSDate:.outputDateFormatter
+___block_descriptor_tmp.124
+___block_literal_global.125
+_OBJC_METACLASS_$_JSONValueTransformer
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+__47-[JSONValueTransformer __JSONObjectFromNSDate:]_block_invoke
+__43-[JSONValueTransformer importDateFormatter]_block_invoke
+isNull
+_OBJC_METACLASS_$_PodsDummy_Pods_SGPSIReader
+_OBJC_CLASS_$_PodsDummy_Pods_SGPSIReader
+/Users/nayminsoe/Desktop/Assignment/IAssignment/SGPSIReader/Pods/Target Support Files/Pods-SGPSIReader/Pods-SGPSIReader-dummy.m
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=274.2 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool
