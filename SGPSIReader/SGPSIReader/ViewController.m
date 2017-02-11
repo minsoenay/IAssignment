@@ -47,6 +47,7 @@
     self.btnRefresh.layer.cornerRadius = 3;
     self.btnRefresh.layer.borderWidth = 1;
     self.btnRefresh.layer.borderColor = [UIColor blackColor].CGColor;
+    
 }
 
 - (void)pullToRefresh {
@@ -60,7 +61,7 @@
     self.pAlertView.view.transform = CGAffineTransformMakeScale(0.5, 0.5);
     [self.view addSubview:self.pAlertView.view];
 
-    //bounce animation
+    //add bounce animation to alertview
     [UIView animateWithDuration:0.3 animations:^{
         self.pAlertView.view.alpha = 1;
         self.pAlertView.view.transform = CGAffineTransformMakeScale(1.2, 1.2);
@@ -76,7 +77,6 @@
         [self.pAlertView.view removeFromSuperview];
         [self.pAlertView removeFromParentViewController];
         if (psi == nil) {
-            
              if ([status rangeOfString:@"offline"].location != NSNotFound) {
                  [self showAlertWith:@"Info" with:status];
              }else if ([status rangeOfString:@"timed out"].location != NSNotFound) {
@@ -84,7 +84,6 @@
              }
             return;
         }
-        
         //update data if available
         [self setupDataModel:psi];
     }];
@@ -116,7 +115,6 @@
     dispatch_queue_t myQueue = dispatch_queue_create("Offline_Queue",NULL);
     dispatch_async(myQueue, ^{
         self.psiData = [CoreDataUtil fetchPSIObject];
-        
 
         dispatch_async(dispatch_get_main_queue(), ^{
             if (self.psiData.update_timestamp != nil) {

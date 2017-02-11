@@ -20,6 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //apply corner
+    self.tblActivity.layer.cornerRadius = 0;
+    self.tblActivity.layer.borderWidth = 1;
+    self.tblActivity.layer.borderColor = [UIColor blackColor].CGColor;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
