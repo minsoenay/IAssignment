@@ -16,3 +16,7 @@
 
 - (void)bind:(NSString *)region twentyFourHourly:tf_hourly psithreeHourly:t_hourly;
 @end
+
+
+@interface StaticHeaderCell : UITableViewCell
+@end

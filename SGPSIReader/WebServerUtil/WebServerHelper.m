@@ -8,10 +8,11 @@
 
 #import "WebServerHelper.h"
 #import "AFURLRequestSerialization.h"
+#import "AppDelegate.h"
+#import "Obfuscator.h"
 #import "Global.h"
 
 #define API_BASE_URL @"https://api.data.gov.sg/"
-#define COMSUMER_KEY @"xI0FyTGQS0T4nyqBbA3clDt64b4P6Ex1"
 
 @implementation WebServerHelper
 
@@ -26,6 +27,12 @@ static WebServerHelper *_sharedHTTPClient = nil;
     return _sharedHTTPClient;
 }
 
+- (NSString *)decodeCKString {
+    Obfuscator *obf = [Obfuscator newWithSalt:[AppDelegate class],[NSString class], nil];
+    NSString *decoded = [obf reveal:key];
+    return decoded;
+}
+
 #pragma mark -
 - (void)getPSI:(NSString *)date_time withBlock:(void (^)(PSIJsonDataModel *psi, id status))onCompleteBlock {
     
@@ -34,45 +41,44 @@ static WebServerHelper *_sharedHTTPClient = nil;
     NSString *urlStr = [NSString stringWithFormat:@"%@v1/environment/psi?date_time=%@", API_BASE_URL,encodedDateTime];
         NSURL *url = [NSURL URLWithString:urlStr];
     
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:60];
-    [request setValue:COMSUMER_KEY forHTTPHeaderField:@"api-key"];// Authenticated API
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:3]; //default 60 seconds
+    [request setValue:[self decodeCKString] forHTTPHeaderField:@"api-key"];
 
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     
-    NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
-        if (error) {
-            NSLog(@"Error: %@", error);
-        } else {
-            
-            NSError *err;
-            NSData *jsonData = [NSJSONSerialization dataWithJSONObject:responseObject options:NSJSONWritingPrettyPrinted error:&err];
-  
-            if (err) {
-                NSLog(@"Invalid Json Data!");
-            }else {
-                
-                NSDictionary *json = [NSJSONSerialization JSONObjectWithData:jsonData
-                                                                     options:0                                                                  error:&err];
-                
-                if(json) {
-                    NSArray *items = json[@"items"];
-                    PSIJsonDataModel *psi = [[PSIJsonDataModel alloc] initWithDictionary:items.firstObject error:&err];
-                                             
-                                             //initWithString:items.firstObject error:&error];
-                    if (psi) {
-                        onCompleteBlock(psi, @"Success!");
-                    }else {
-                        onCompleteBlock(nil, error.localizedDescription);
-                    }
-                    
-                }
+    self.dataTask = [manager dataTaskWithRequest:request uploadProgress:^(NSProgress * _Nonnull uploadProgress) {
+    } downloadProgress:^(NSProgress * _Nonnull downloadProgress) {
+    } completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
 
-            }
+        if (error) {
+            onCompleteBlock(nil, error.localizedDescription);
+            return;
+        }
+        NSError *err;
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:responseObject options:NSJSONWritingPrettyPrinted error:&err];
+        if (err) {
+            NSLog(@"Invalid Json Data!");
+        }else {
             
+            NSDictionary *json = [NSJSONSerialization JSONObjectWithData:jsonData
+                                                                 options:0                                                                  error:&err];
+            
+            if(json) {
+                NSArray *items = json[@"items"];
+                PSIJsonDataModel *psi = [[PSIJsonDataModel alloc] initWithDictionary:items.firstObject error:&err];
+                if (psi) {
+                    onCompleteBlock(psi, @"Success!");
+                }else {
+                    onCompleteBlock(nil, error.localizedDescription);
+                }
+            }
         }
     }];
-    [dataTask resume];
-   
+    [self.dataTask resume];
+}
+
+- (void)cancelOperation {
+    [self.dataTask cancel];
 }
 @end

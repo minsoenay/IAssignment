@@ -10,7 +10,11 @@
 #import "AFHTTPSessionManager.h"
 #import "PSIJsonDataModel.h"
 
-@interface WebServerHelper : AFHTTPSessionManager
+@interface WebServerHelper : AFHTTPSessionManager {
+    
+}
+
+@property (nonatomic, strong) NSURLSessionDataTask *dataTask;
 
 + (WebServerHelper *)sharedHTTPClient;
 - (void)getPSI:(NSString *)query withBlock:(void (^)(PSIJsonDataModel *psi, id status))onCompleteBlock;

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
 
 @interface ViewController : UIViewController
 

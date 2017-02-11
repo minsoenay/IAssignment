@@ -9,5 +9,6 @@
 #ifndef Constants_h
 #define Constants_h
 
+#define regions @[@"National", @"south", @"north", @"east", @"central", @"west"]
 
 #endif /* Constants_h */

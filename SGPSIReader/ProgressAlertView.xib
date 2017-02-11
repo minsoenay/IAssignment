@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProgressAlertView">
+            <connections>
+                <outlet property="activityView" destination="Rah-lR-n5n" id="DEg-Fo-Ydh"/>
+                <outlet property="btnCancel" destination="SFc-Vh-tv2" id="DFx-gc-qqy"/>
+                <outlet property="lblTitle" destination="qCD-2W-mKz" id="EMc-0D-egc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="215" height="116"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Query in progress..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCD-2W-mKz">
+                    <rect key="frame" x="27" y="10" width="151" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="KGX-NY-kv2"/>
+                        <constraint firstAttribute="width" constant="151" id="x2G-9b-Qke"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Rah-lR-n5n">
+                    <rect key="frame" x="93" y="39" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="FPL-bz-ru8"/>
+                        <constraint firstAttribute="width" constant="20" id="K3h-ju-m8Y"/>
+                    </constraints>
+                </activityIndicatorView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFc-Vh-tv2">
+                    <rect key="frame" x="53" y="71" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.36078431372549019" green="0.36862745098039218" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Jt6-Up-lQ1"/>
+                        <constraint firstAttribute="height" constant="30" id="fTK-gn-Bj6"/>
+                    </constraints>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnCancel_TouchUpInside:" destination="-1" eventType="touchUpInside" id="Ezf-Iz-rZS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qCD-2W-mKz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="0vo-CH-n3U"/>
+                <constraint firstAttribute="trailing" secondItem="SFc-Vh-tv2" secondAttribute="trailing" constant="62" id="8Jc-Dz-9BA"/>
+                <constraint firstItem="qCD-2W-mKz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="27" id="PDe-8v-4Wr"/>
+                <constraint firstAttribute="bottom" secondItem="SFc-Vh-tv2" secondAttribute="bottom" constant="15" id="V0L-7y-jki"/>
+                <constraint firstItem="SFc-Vh-tv2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="53" id="Vxr-xi-QLj"/>
+                <constraint firstItem="Rah-lR-n5n" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="93" id="YOl-XG-Pbu"/>
+                <constraint firstItem="SFc-Vh-tv2" firstAttribute="top" secondItem="Rah-lR-n5n" secondAttribute="bottom" constant="12" id="e6B-Az-VQv"/>
+                <constraint firstItem="Rah-lR-n5n" firstAttribute="top" secondItem="qCD-2W-mKz" secondAttribute="bottom" constant="8" id="q4H-3X-wGP"/>
+                <constraint firstAttribute="trailing" secondItem="qCD-2W-mKz" secondAttribute="trailing" constant="37" id="sgZ-BP-0EA"/>
+                <constraint firstAttribute="trailing" secondItem="Rah-lR-n5n" secondAttribute="trailing" constant="102" id="wiW-5o-H8Z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-50.5" y="3"/>
+        </view>
+    </objects>
+</document>

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011422331E4EBA48004F9615 /* CustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 011422321E4EBA48004F9615 /* CustomAlert.m */; };
+		011422371E4EBDB6004F9615 /* QueryAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011422351E4EBDB6004F9615 /* QueryAlertView.m */; };
+		011422381E4EBDB6004F9615 /* QueryAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011422361E4EBDB6004F9615 /* QueryAlertView.xib */; };
+		0114223C1E4EBDC8004F9615 /* ProgressAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0114223A1E4EBDC8004F9615 /* ProgressAlertView.m */; };
+		0114223D1E4EBDC8004F9615 /* ProgressAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0114223B1E4EBDC8004F9615 /* ProgressAlertView.xib */; };
+		011422401E4EEAAE004F9615 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0114223F1E4EEAAE004F9615 /* ActivityViewController.m */; };
+		011422431E4EEABE004F9615 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011422421E4EEABE004F9615 /* DetailViewController.m */; };
 		01DB9E761E4CA1B9007CCF7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9E751E4CA1B9007CCF7D /* main.m */; };
 		01DB9E791E4CA1B9007CCF7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9E781E4CA1B9007CCF7D /* AppDelegate.m */; };
 		01DB9E7C1E4CA1B9007CCF7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9E7B1E4CA1B9007CCF7D /* ViewController.m */; };
@@ -19,6 +26,9 @@
 		01DB9EA31E4CAE58007CCF7D /* PSIJsonDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9EA21E4CAE58007CCF7D /* PSIJsonDataModel.m */; };
 		01DB9EA71E4CB840007CCF7D /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9EA61E4CB840007CCF7D /* Global.m */; };
 		01DB9EAB1E4CC436007CCF7D /* CustomPsiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9EAA1E4CC436007CCF7D /* CustomPsiCell.m */; };
+		01DB9EAF1E4E0B68007CCF7D /* Obfuscator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9EAE1E4E0B68007CCF7D /* Obfuscator.m */; };
+		01DB9EB31E4E1351007CCF7D /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9EB21E4E1351007CCF7D /* CoreDataStack.m */; };
+		01DB9EB61E4E145B007CCF7D /* CoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB9EB51E4E145B007CCF7D /* CoreDataUtil.m */; };
 		1BC3D23FCF9682F72611E4D2 /* libPods-SGPSIReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C275FB141FD8973063EE63E3 /* libPods-SGPSIReader.a */; };
 		B665D8B74D28CDCE49342B46 /* libPods-SGPSIReaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4E3A621CFC5363517F9472 /* libPods-SGPSIReaderTests.a */; };
 /* End PBXBuildFile section */
@@ -34,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011422311E4EBA48004F9615 /* CustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlert.h; sourceTree = "<group>"; };
+		011422321E4EBA48004F9615 /* CustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlert.m; sourceTree = "<group>"; };
+		011422341E4EBDB6004F9615 /* QueryAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryAlertView.h; sourceTree = "<group>"; };
+		011422351E4EBDB6004F9615 /* QueryAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryAlertView.m; sourceTree = "<group>"; };
+		011422361E4EBDB6004F9615 /* QueryAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QueryAlertView.xib; sourceTree = "<group>"; };
+		011422391E4EBDC8004F9615 /* ProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressAlertView.h; sourceTree = "<group>"; };
+		0114223A1E4EBDC8004F9615 /* ProgressAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressAlertView.m; sourceTree = "<group>"; };
+		0114223B1E4EBDC8004F9615 /* ProgressAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressAlertView.xib; sourceTree = "<group>"; };
+		0114223E1E4EEAAE004F9615 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		0114223F1E4EEAAE004F9615 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		011422411E4EEABE004F9615 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		011422421E4EEABE004F9615 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		01DB9E711E4CA1B9007CCF7D /* SGPSIReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGPSIReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DB9E751E4CA1B9007CCF7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01DB9E771E4CA1B9007CCF7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +79,14 @@
 		01DB9EA81E4CB851007CCF7D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		01DB9EA91E4CC436007CCF7D /* CustomPsiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPsiCell.h; sourceTree = "<group>"; };
 		01DB9EAA1E4CC436007CCF7D /* CustomPsiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPsiCell.m; sourceTree = "<group>"; };
+		01DB9EAD1E4E0B68007CCF7D /* Obfuscator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obfuscator.h; sourceTree = "<group>"; };
+		01DB9EAE1E4E0B68007CCF7D /* Obfuscator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Obfuscator.m; sourceTree = "<group>"; };
+		01DB9EB11E4E1351007CCF7D /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		01DB9EB21E4E1351007CCF7D /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		01DB9EB41E4E145B007CCF7D /* CoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataUtil.h; sourceTree = "<group>"; };
+		01DB9EB51E4E145B007CCF7D /* CoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataUtil.m; sourceTree = "<group>"; };
+		01DB9EC81E4E2DA7007CCF7D /* UpdateTimestampItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateTimestampItem.h; sourceTree = "<group>"; };
+		01DB9EC91E4E2DA7007CCF7D /* UpdateTimestampItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateTimestampItem.m; sourceTree = "<group>"; };
 		4384A18E1FC52953140AC3EA /* Pods-SGPSIReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPSIReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGPSIReaderTests/Pods-SGPSIReaderTests.release.xcconfig"; sourceTree = "<group>"; };
 		579C91E9ED0ACA360AF85267 /* Pods-SGPSIReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPSIReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGPSIReader/Pods-SGPSIReader.release.xcconfig"; sourceTree = "<group>"; };
 		7F242087E71D40C7E5D62C26 /* Pods-SGPSIReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPSIReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGPSIReader/Pods-SGPSIReader.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,9 +115,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011422301E4EB94E004F9615 /* ProgressAlert */ = {
+			isa = PBXGroup;
+			children = (
+				011422311E4EBA48004F9615 /* CustomAlert.h */,
+				011422321E4EBA48004F9615 /* CustomAlert.m */,
+				011422341E4EBDB6004F9615 /* QueryAlertView.h */,
+				011422351E4EBDB6004F9615 /* QueryAlertView.m */,
+				011422361E4EBDB6004F9615 /* QueryAlertView.xib */,
+				011422391E4EBDC8004F9615 /* ProgressAlertView.h */,
+				0114223A1E4EBDC8004F9615 /* ProgressAlertView.m */,
+				0114223B1E4EBDC8004F9615 /* ProgressAlertView.xib */,
+			);
+			name = ProgressAlert;
+			sourceTree = "<group>";
+		};
 		01DB9E681E4CA1B9007CCF7D = {
 			isa = PBXGroup;
 			children = (
+				011422301E4EB94E004F9615 /* ProgressAlert */,
+				01DB9EB01E4E12BE007CCF7D /* Coredata */,
+				01DB9EAC1E4E0B68007CCF7D /* Obfuscator */,
 				01DB9EA41E4CB82C007CCF7D /* Utils */,
 				01DB9EA01E4CAE1E007CCF7D /* JSONModel */,
 				01DB9E9C1E4CA5BD007CCF7D /* WebServerUtil */,
@@ -115,6 +163,10 @@
 				01DB9E781E4CA1B9007CCF7D /* AppDelegate.m */,
 				01DB9E7A1E4CA1B9007CCF7D /* ViewController.h */,
 				01DB9E7B1E4CA1B9007CCF7D /* ViewController.m */,
+				0114223E1E4EEAAE004F9615 /* ActivityViewController.h */,
+				0114223F1E4EEAAE004F9615 /* ActivityViewController.m */,
+				011422411E4EEABE004F9615 /* DetailViewController.h */,
+				011422421E4EEABE004F9615 /* DetailViewController.m */,
 				01DB9EA91E4CC436007CCF7D /* CustomPsiCell.h */,
 				01DB9EAA1E4CC436007CCF7D /* CustomPsiCell.m */,
 				01DB9E7D1E4CA1B9007CCF7D /* Main.storyboard */,
@@ -170,6 +222,28 @@
 				01DB9EA81E4CB851007CCF7D /* Constants.h */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		01DB9EAC1E4E0B68007CCF7D /* Obfuscator */ = {
+			isa = PBXGroup;
+			children = (
+				01DB9EAD1E4E0B68007CCF7D /* Obfuscator.h */,
+				01DB9EAE1E4E0B68007CCF7D /* Obfuscator.m */,
+			);
+			path = Obfuscator;
+			sourceTree = "<group>";
+		};
+		01DB9EB01E4E12BE007CCF7D /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				01DB9EB11E4E1351007CCF7D /* CoreDataStack.h */,
+				01DB9EB21E4E1351007CCF7D /* CoreDataStack.m */,
+				01DB9EB41E4E145B007CCF7D /* CoreDataUtil.h */,
+				01DB9EB51E4E145B007CCF7D /* CoreDataUtil.m */,
+				01DB9EC81E4E2DA7007CCF7D /* UpdateTimestampItem.h */,
+				01DB9EC91E4E2DA7007CCF7D /* UpdateTimestampItem.m */,
+			);
+			name = Coredata;
 			sourceTree = "<group>";
 		};
 		8D61C1D5B020535D8263A5FA /* Frameworks */ = {
@@ -282,8 +356,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011422381E4EBDB6004F9615 /* QueryAlertView.xib in Resources */,
 				01DB9E871E4CA1B9007CCF7D /* LaunchScreen.storyboard in Resources */,
 				01DB9E841E4CA1B9007CCF7D /* Assets.xcassets in Resources */,
+				0114223D1E4EBDC8004F9615 /* ProgressAlertView.xib in Resources */,
 				01DB9E7F1E4CA1B9007CCF7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,14 +471,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011422371E4EBDB6004F9615 /* QueryAlertView.m in Sources */,
 				01DB9E9F1E4CA5E9007CCF7D /* WebServerHelper.m in Sources */,
 				01DB9EAB1E4CC436007CCF7D /* CustomPsiCell.m in Sources */,
+				011422431E4EEABE004F9615 /* DetailViewController.m in Sources */,
 				01DB9E7C1E4CA1B9007CCF7D /* ViewController.m in Sources */,
+				011422401E4EEAAE004F9615 /* ActivityViewController.m in Sources */,
+				01DB9EB61E4E145B007CCF7D /* CoreDataUtil.m in Sources */,
 				01DB9E821E4CA1B9007CCF7D /* SGPSIReader.xcdatamodeld in Sources */,
+				0114223C1E4EBDC8004F9615 /* ProgressAlertView.m in Sources */,
 				01DB9EA71E4CB840007CCF7D /* Global.m in Sources */,
+				01DB9EB31E4E1351007CCF7D /* CoreDataStack.m in Sources */,
 				01DB9E791E4CA1B9007CCF7D /* AppDelegate.m in Sources */,
 				01DB9EA31E4CAE58007CCF7D /* PSIJsonDataModel.m in Sources */,
+				01DB9EAF1E4E0B68007CCF7D /* Obfuscator.m in Sources */,
 				01DB9E761E4CA1B9007CCF7D /* main.m in Sources */,
+				011422331E4EBA48004F9615 /* CustomAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
